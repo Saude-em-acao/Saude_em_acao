@@ -36,7 +36,7 @@ export const KIDS_GAMES: KidsGame[] = [
     titulo: "Adivinhe o Personagem Escondido",
     descricao: "Arraste a lupa pela imagem e descubra o personagem escondido!",
     logo: "/assets/logo-adivinhe-personagem.svg",
-    link: "https://view.genially.com/6aa44ee95af22b777fe63db1",
+    link: "https://view.genially.com/6aa44f97322078f1de10ff44",
     idade: "Livre",
     categoria: "Desafio",
     plataforma: "Genially"

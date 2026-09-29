@@ -75,135 +75,144 @@ export const InformeView: React.FC = () => {
   };
 
   return (
-    <section className="max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-16 space-y-8">
-      {/* Header */}
-      <div className="text-center max-w-3xl mx-auto">
-        <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[var(--leaf)]">
-          <Sparkles className="w-3.5 h-3.5" />
-          Acervo e Evidências Científicas
-        </span>
-        <h1 className="mt-2 text-4xl md:text-5xl font-display font-bold text-primary">
-          Informe-se!
-        </h1>
-        <p className="mt-3 text-foreground/75 text-sm sm:text-base leading-relaxed">
-          Reunimos as pesquisas do IDEC sobre defensivos em ultraprocessados, relatórios da Anvisa, manifestos do INCA, estudos da Fiocruz e investigações de credibilidade para fundamentar seu consumo consciente.
-        </p>
-      </div>
-
-      {/* Featured Callout - Cartilhas IDEC */}
-      <div className="rounded-3xl border border-primary/20 bg-linear-to-r from-primary/5 via-emerald-500/5 to-primary/10 p-5 sm:p-6 shadow-xs flex flex-col md:flex-row items-center justify-between gap-4">
-        <div className="flex items-start gap-3.5">
-          <div className="p-3 rounded-2xl bg-primary/10 text-primary shrink-0">
-            <Bookmark className="w-6 h-6" />
-          </div>
-          <div>
-            <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full bg-primary/10 text-primary text-[11px] font-bold uppercase tracking-wide">
-              Nova Fonte em Destaque
-            </div>
-            <h3 className="text-base sm:text-lg font-bold text-foreground mt-1">
-              Série de Pesquisas: Tem Veneno Nesse Pacote (IDEC)
-            </h3>
-            <p className="text-xs sm:text-sm text-foreground/75 mt-0.5">
-              Confira os artigos educativos baseados nos três volumes dos estudos laboratoriais do IDEC (2021, 2022 e 2024) sobre resíduos de defensivos agrícolas em alimentos ultraprocessados.
+    <div className="w-full flex flex-col">
+      {/* Header & Featured Callout */}
+      <section className="w-full bg-[#def0dd] py-12 md:py-16 border-b border-[#b8deba]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 space-y-8">
+          <div className="text-center max-w-3xl mx-auto">
+            <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[var(--leaf)]">
+              <Sparkles className="w-3.5 h-3.5" />
+              Acervo e Evidências Científicas
+            </span>
+            <h1 className="mt-2 text-4xl md:text-5xl font-display font-bold text-primary">
+              Informe-se!
+            </h1>
+            <p className="mt-3 text-foreground/75 text-sm sm:text-base leading-relaxed">
+              Reunimos as pesquisas do IDEC sobre defensivos em ultraprocessados, relatórios da Anvisa, manifestos do INCA, estudos da Fiocruz e investigações de credibilidade para fundamentar seu consumo consciente.
             </p>
           </div>
+
+          {/* Featured Callout - Cartilhas IDEC */}
+          <div className="rounded-3xl border border-primary/20 bg-card p-5 sm:p-6 shadow-xs flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex items-start gap-3.5">
+              <div className="p-3 rounded-2xl bg-primary/10 text-primary shrink-0">
+                <Bookmark className="w-6 h-6" />
+              </div>
+              <div>
+                <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full bg-primary/10 text-primary text-[11px] font-bold uppercase tracking-wide">
+                  Nova Fonte em Destaque
+                </div>
+                <h3 className="text-base sm:text-lg font-bold text-foreground mt-1">
+                  Série de Pesquisas: Tem Veneno Nesse Pacote (IDEC)
+                </h3>
+                <p className="text-xs sm:text-sm text-foreground/75 mt-0.5">
+                  Confira os artigos educativos baseados nos três volumes dos estudos laboratoriais do IDEC (2021, 2022 e 2024) sobre resíduos de defensivos agrícolas em alimentos ultraprocessados.
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={() => {
+                setFonteAtiva("IDEC");
+                setCategoriaAtiva("Todos");
+              }}
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-primary text-primary-foreground text-xs font-bold shadow-xs hover:bg-primary/90 transition shrink-0 cursor-pointer"
+            >
+              <span>Ver cartilhas e artigos do IDEC</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </button>
+          </div>
         </div>
-        <button
-          onClick={() => {
-            setFonteAtiva("IDEC");
-            setCategoriaAtiva("Todos");
-          }}
-          className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-primary text-primary-foreground text-xs font-bold shadow-xs hover:bg-primary/90 transition shrink-0 cursor-pointer"
-        >
-          <span>Ver cartilhas e artigos do IDEC</span>
-          <ArrowRight className="w-3.5 h-3.5" />
-        </button>
-      </div>
+      </section>
 
       {/* Search & Filters */}
-      <div className="space-y-4 max-w-3xl mx-auto">
-        {/* Search */}
-        <div className="relative">
-          <Search className="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" />
-          <input
-            type="text"
-            value={busca}
-            onChange={(e) => setBusca(e.target.value)}
-            placeholder="Pesquisar por tema, alimento ou fonte (ex: IDEC, glifosato, Anvisa, INCA, trigo)..."
-            className="w-full rounded-full border border-border bg-card pl-11 pr-4 py-2.5 text-sm outline-none focus:border-primary shadow-xs"
-          />
-          {busca && (
-            <button
-              onClick={() => setBusca("")}
-              className="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-bold text-muted-foreground hover:text-foreground cursor-pointer"
-            >
-              Limpar
-            </button>
-          )}
-        </div>
+      <section className="w-full bg-[#fbf1da] py-8 md:py-10 border-b border-[#ecdcb8]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 space-y-4 max-w-3xl mx-auto">
+          {/* Search */}
+          <div className="relative">
+            <Search className="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" />
+            <input
+              type="text"
+              value={busca}
+              onChange={(e) => setBusca(e.target.value)}
+              placeholder="Pesquisar por tema, alimento ou fonte (ex: IDEC, glifosato, Anvisa, INCA, trigo)..."
+              className="w-full rounded-full border border-border/80 bg-card pl-11 pr-4 py-2.5 text-sm outline-none focus:border-primary shadow-xs"
+            />
+            {busca && (
+              <button
+                onClick={() => setBusca("")}
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-bold text-muted-foreground hover:text-foreground cursor-pointer"
+              >
+                Limpar
+              </button>
+            )}
+          </div>
 
-        {/* Source Filter Tabs */}
-        <div className="space-y-1.5 text-center">
-          <label className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground flex items-center justify-center gap-1">
-            <Building2 className="w-3 h-3" />
-            Filtrar por Fonte Institucional
-          </label>
-          <div className="flex flex-wrap justify-center gap-2">
-            {fontes.map((f) => {
-              const active = fonteAtiva === f.id;
-              return (
-                <button
-                  key={f.id}
-                  onClick={() => setFonteAtiva(f.id)}
-                  className={`text-xs font-semibold px-3.5 py-1.5 rounded-full border transition cursor-pointer flex items-center gap-1.5 ${
-                    active
-                      ? "bg-primary text-primary-foreground border-primary shadow-xs"
-                      : "border-border bg-card hover:border-primary/50 text-foreground/80"
-                  }`}
-                >
-                  {f.id === "IDEC" && <FileText className="w-3 h-3 text-amber-300" />}
-                  {f.nome}
-                </button>
-              );
-            })}
+          {/* Source Filter Tabs */}
+          <div className="space-y-1.5 text-center">
+            <label className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground flex items-center justify-center gap-1">
+              <Building2 className="w-3 h-3" />
+              Filtrar por Fonte Institucional
+            </label>
+            <div className="flex flex-wrap justify-center gap-2">
+              {fontes.map((f) => {
+                const active = fonteAtiva === f.id;
+                return (
+                  <button
+                    key={f.id}
+                    onClick={() => setFonteAtiva(f.id)}
+                    className={`text-xs font-semibold px-3.5 py-1.5 rounded-full border transition cursor-pointer flex items-center gap-1.5 ${
+                      active
+                        ? "bg-primary text-primary-foreground border-primary shadow-xs"
+                        : "border-border/80 bg-card hover:border-primary/50 text-foreground/80"
+                    }`}
+                  >
+                    {f.id === "IDEC" && <FileText className="w-3 h-3 text-amber-300" />}
+                    {f.nome}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Category Pills */}
+          <div className="space-y-1.5 text-center">
+            <label className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground flex items-center justify-center gap-1">
+              <BookOpen className="w-3 h-3" />
+              Formato do Conteúdo
+            </label>
+            <div className="flex flex-wrap justify-center gap-2">
+              {categorias.map((cat) => {
+                const active = categoriaAtiva === cat;
+                return (
+                  <button
+                    key={cat}
+                    onClick={() => setCategoriaAtiva(cat)}
+                    className={`text-xs font-semibold px-3.5 py-1.5 rounded-full border transition cursor-pointer flex items-center gap-1.5 ${
+                      active
+                        ? "bg-secondary text-secondary-foreground border-secondary font-bold shadow-xs"
+                        : "border-border/80 bg-card hover:border-secondary/50 text-foreground/75"
+                    }`}
+                  >
+                    {cat !== "Todos" && getCategoryIcon(cat)}
+                    {cat}
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
-
-        {/* Category Pills */}
-        <div className="space-y-1.5 text-center">
-          <label className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground flex items-center justify-center gap-1">
-            <BookOpen className="w-3 h-3" />
-            Formato do Conteúdo
-          </label>
-          <div className="flex flex-wrap justify-center gap-2">
-            {categorias.map((cat) => {
-              const active = categoriaAtiva === cat;
-              return (
-                <button
-                  key={cat}
-                  onClick={() => setCategoriaAtiva(cat)}
-                  className={`text-xs font-semibold px-3.5 py-1.5 rounded-full border transition cursor-pointer flex items-center gap-1.5 ${
-                    active
-                      ? "bg-secondary text-secondary-foreground border-secondary font-bold shadow-xs"
-                      : "border-border bg-card hover:border-secondary/50 text-foreground/75"
-                  }`}
-                >
-                  {cat !== "Todos" && getCategoryIcon(cat)}
-                  {cat}
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-
-      {/* Count */}
-      <div className="text-center text-xs font-semibold text-muted-foreground">
-        Exibindo {itensFiltrados.length} de {INFORME_ITEMS.length} publicações
-      </div>
+      </section>
 
       {/* Cards Grid */}
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <section className="w-full bg-[#f4efe3] py-12 md:py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 space-y-6">
+          {/* Count */}
+          <div className="text-center text-xs font-semibold text-muted-foreground">
+            Exibindo {itensFiltrados.length} de {INFORME_ITEMS.length} publicações
+          </div>
+
+          {/* Cards Grid */}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {itensFiltrados.map((item) => {
           const hasFullContent = !!item.conteudoCompleto;
 
@@ -319,6 +328,8 @@ export const InformeView: React.FC = () => {
           </button>
         </div>
       )}
+        </div>
+      </section>
 
       {/* Full Article Modal */}
       {artigoSelecionado && artigoSelecionado.conteudoCompleto && (
@@ -484,7 +495,7 @@ export const InformeView: React.FC = () => {
           </div>
         </div>
       )}
-    </section>
+    </div>
   );
 };
 

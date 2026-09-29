@@ -298,7 +298,7 @@ export function calcularEstatisticasGerais(): EstatisticasGerais {
       }
       totalAlimentos += ref.consumos.length;
       for (const c of ref.consumos) {
-        cuidadosRealizados += c.cuidados.length;
+        cuidadosRealizados += c.cuidados.filter(id => id !== "nenhuma-acao").length;
       }
     }
     const pts = calcularPontosDoDia(reg, CUIDADOS_PADRAO);
@@ -323,7 +323,8 @@ export function calcularEstatisticasGerais(): EstatisticasGerais {
     }
   }
 
-  const cuidadosTotalPossiveis = totalAlimentos * CUIDADOS_PADRAO.length;
+  const acoesCuidadosPadrao = CUIDADOS_PADRAO.filter(c => c.id !== "nenhuma-acao");
+  const cuidadosTotalPossiveis = totalAlimentos * acoesCuidadosPadrao.length;
   const indiceMedio = cuidadosTotalPossiveis > 0 
     ? Math.min(100, Math.round((cuidadosRealizados / cuidadosTotalPossiveis) * 100))
     : null;

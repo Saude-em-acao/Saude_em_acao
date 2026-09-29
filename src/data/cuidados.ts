@@ -55,6 +55,14 @@ export const CUIDADOS_PADRAO: CuidadoItem[] = [
     descricao: "O calor e o cozimento podem degradar parte de certas substâncias químicas sensíveis.",
     pontos: 10,
     ordem: 6
+  },
+  {
+    id: "nenhuma-acao",
+    slug: "nenhuma-acao",
+    nome: "Neste alimento, nenhuma das ações anteriores são possíveis",
+    descricao: "Para alimentos prontos para consumo, embalados ou ultraprocessados em que não se aplicam higienização, cozimento, imersão ou descasque.",
+    pontos: 0,
+    ordem: 7
   }
 ];
 

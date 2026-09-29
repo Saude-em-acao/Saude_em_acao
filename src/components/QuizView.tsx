@@ -64,72 +64,80 @@ export const QuizView: React.FC<QuizViewProps> = ({ navigate }) => {
   };
 
   return (
-    <section className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-16">
-      {/* Decorative blurs */}
-      <div
-        aria-hidden="true"
-        className="absolute -top-10 -left-10 w-64 h-64 rounded-full bg-[var(--leaf)]/15 blur-3xl -z-10"
-      />
-      <div
-        aria-hidden="true"
-        className="absolute -bottom-10 -right-10 w-64 h-64 rounded-full bg-[var(--tomato)]/15 blur-3xl -z-10"
-      />
+    <div className="w-full flex flex-col">
+      {/* Header & Tab Selector Block */}
+      <section className="relative w-full bg-[#def0dd] py-12 md:py-16 border-b border-[#b8deba] overflow-hidden">
+        {/* Decorative blurs */}
+        <div
+          aria-hidden="true"
+          className="absolute -top-10 -left-10 w-64 h-64 rounded-full bg-[var(--leaf)]/15 blur-3xl -z-10"
+        />
+        <div
+          aria-hidden="true"
+          className="absolute -bottom-10 -right-10 w-64 h-64 rounded-full bg-[var(--sun)]/20 blur-3xl -z-10"
+        />
 
-      {/* Page Header */}
-      <header className="text-center max-w-3xl mx-auto mb-8 space-y-2">
-        <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[var(--leaf)]">
-          <Sparkles className="w-3.5 h-3.5" />
-          Saúde em Ação · Desafios Interativos
-        </span>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-primary">
-          Quiz + Mito ou Verdade?
-        </h1>
-        <p className="text-sm sm:text-base text-foreground/75 max-w-xl mx-auto leading-relaxed">
-          Aprenda na prática: investigue os <strong>9 mitos e verdades</strong> do IDEC sobre defensivos agrícolas ou teste seus conhecimentos no <strong>quiz de alimentos</strong>.
-        </p>
-      </header>
-
-      {/* Tab Selector */}
-      <div className="flex justify-center mb-10">
-        <div className="inline-flex p-1.5 rounded-full bg-secondary/70 border border-border shadow-xs max-w-md w-full sm:w-auto">
-          <button
-            type="button"
-            onClick={() => setActiveTab("mito-verdade")}
-            className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition cursor-pointer ${
-              activeTab === "mito-verdade"
-                ? "bg-primary text-primary-foreground shadow-sm"
-                : "text-foreground/75 hover:text-foreground"
-            }`}
-          >
-            <HelpCircle className="w-4 h-4" />
-            <span>Mito ou Verdade?</span>
-            <span className={`text-[10px] px-2 py-0.5 rounded-full font-extrabold ${
-              activeTab === "mito-verdade" ? "bg-white/20 text-white" : "bg-primary/15 text-primary"
-            }`}>
-              9 Cards
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          {/* Page Header */}
+          <header className="text-center max-w-3xl mx-auto mb-8 space-y-2">
+            <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[var(--leaf)]">
+              <Sparkles className="w-3.5 h-3.5" />
+              Saúde em Ação · Desafios Interativos
             </span>
-          </button>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-primary">
+              Quiz + Mito ou Verdade?
+            </h1>
+            <p className="text-sm sm:text-base text-foreground/75 max-w-xl mx-auto leading-relaxed">
+              Aprenda na prática: investigue os <strong>9 mitos e verdades</strong> do IDEC sobre defensivos agrícolas ou teste seus conhecimentos no <strong>quiz de alimentos</strong>.
+            </p>
+          </header>
 
-          <button
-            type="button"
-            onClick={() => setActiveTab("contaminado-limpo")}
-            className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition cursor-pointer ${
-              activeTab === "contaminado-limpo"
-                ? "bg-primary text-primary-foreground shadow-sm"
-                : "text-foreground/75 hover:text-foreground"
-            }`}
-          >
-            <Leaf className="w-4 h-4" />
-            <span>Contaminado ou Limpo?</span>
-          </button>
+          {/* Tab Selector */}
+          <div className="flex justify-center">
+            <div className="inline-flex p-1.5 rounded-full bg-card border border-border shadow-xs max-w-md w-full sm:w-auto">
+              <button
+                type="button"
+                onClick={() => setActiveTab("mito-verdade")}
+                className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition cursor-pointer ${
+                  activeTab === "mito-verdade"
+                    ? "bg-primary text-primary-foreground shadow-sm"
+                    : "text-foreground/75 hover:text-foreground"
+                }`}
+              >
+                <HelpCircle className="w-4 h-4" />
+                <span>Mito ou Verdade?</span>
+                <span className={`text-[10px] px-2 py-0.5 rounded-full font-extrabold ${
+                  activeTab === "mito-verdade" ? "bg-white/20 text-white" : "bg-primary/15 text-primary"
+                }`}>
+                  9 Cards
+                </span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setActiveTab("contaminado-limpo")}
+                className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition cursor-pointer ${
+                  activeTab === "contaminado-limpo"
+                    ? "bg-primary text-primary-foreground shadow-sm"
+                    : "text-foreground/75 hover:text-foreground"
+                }`}
+              >
+                <Leaf className="w-4 h-4" />
+                <span>Contaminado ou Limpo?</span>
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      {/* RENDER ACTIVE SECTION */}
-      {activeTab === "mito-verdade" ? (
-        <MitoVerdadeSection />
-      ) : (
-        <div className="max-w-3xl mx-auto space-y-8">
+      {/* Active Section Content */}
+      <section className="w-full bg-[#f4efe3] py-12 md:py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          {/* RENDER ACTIVE SECTION */}
+          {activeTab === "mito-verdade" ? (
+            <MitoVerdadeSection />
+          ) : (
+            <div className="max-w-3xl mx-auto space-y-8">
           {/* Header */}
           <header className="text-center max-w-2xl mx-auto">
             <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[var(--leaf)]">
@@ -304,6 +312,8 @@ export const QuizView: React.FC<QuizViewProps> = ({ navigate }) => {
           )}
         </div>
       )}
-    </section>
+        </div>
+      </section>
+    </div>
   );
 };

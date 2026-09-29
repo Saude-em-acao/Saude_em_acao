@@ -16,7 +16,7 @@ const NAV_LINKS = [
 
 export const Footer: React.FC<FooterProps> = ({ navigate }) => {
   return (
-    <footer className="border-t border-border mt-16 bg-secondary/30">
+    <footer className="border-t border-[#e2d6c1] bg-[#ede6d6]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 grid sm:grid-cols-3 gap-8 text-sm">
         <div>
           <div className="flex items-center gap-2 font-display font-bold text-primary text-xl">

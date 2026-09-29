@@ -37,113 +37,122 @@ export const AlimentosView: React.FC = () => {
   };
 
   return (
-    <section className="max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-16 space-y-8">
-      {/* Header */}
-      <div className="text-center max-w-3xl mx-auto">
-        <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[var(--leaf)]">
-          <ShieldCheck className="w-3.5 h-3.5" />
-          Base Científica Oficial
-        </span>
-        <h1 className="mt-2 text-4xl md:text-5xl font-display font-bold text-primary">
-          Tabela de Alimentos e Defensores
-        </h1>
-        <p className="mt-3 text-foreground/75 text-sm sm:text-base leading-relaxed">
-          Consulte o nível de atenção de alimentos in natura e ultraprocessados consumidos no Brasil, descubra as substâncias identificadas em análises oficiais e científicas (Anvisa e Idec) e saiba as melhores práticas de prevenção e higienização.
-        </p>
-      </div>
+    <div className="w-full flex flex-col">
+      {/* Header & Guidelines */}
+      <section className="w-full bg-[#def0dd] py-12 md:py-16 border-b border-[#b8deba]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 space-y-8">
+          <div className="text-center max-w-3xl mx-auto">
+            <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[var(--leaf)]">
+              <ShieldCheck className="w-3.5 h-3.5" />
+              Base Científica Oficial
+            </span>
+            <h1 className="mt-2 text-4xl md:text-5xl font-display font-bold text-primary">
+              Tabela de Alimentos e Defensores
+            </h1>
+            <p className="mt-3 text-foreground/75 text-sm sm:text-base leading-relaxed">
+              Consulte o nível de atenção de alimentos in natura e ultraprocessados consumidos no Brasil, descubra as substâncias identificadas em análises oficiais e científicas (Anvisa e Idec) e saiba as melhores práticas de prevenção e higienização.
+            </p>
+          </div>
 
-      {/* Orientative Disclaimer */}
-      <div className="rounded-2xl border border-border bg-card p-5 sm:p-6 text-sm sm:text-base text-muted-foreground flex gap-3.5 sm:gap-4 items-start max-w-4xl mx-auto shadow-xs">
-        <Info className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-        <div className="space-y-2">
-          <p className="leading-relaxed text-foreground/85">{AVISO_ORIENTATIVO}</p>
-          <p className="font-semibold text-foreground/95 leading-relaxed">{AVISO_HIGIENIZACAO}</p>
+          {/* Orientative Disclaimer */}
+          <div className="rounded-2xl border border-border/80 bg-card p-5 sm:p-6 text-sm sm:text-base text-muted-foreground flex gap-3.5 sm:gap-4 items-start max-w-4xl mx-auto shadow-xs">
+            <Info className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+            <div className="space-y-2">
+              <p className="leading-relaxed text-foreground/85">{AVISO_ORIENTATIVO}</p>
+              <p className="font-semibold text-foreground/95 leading-relaxed">{AVISO_HIGIENIZACAO}</p>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
       {/* Search and Filters */}
-      <div className="space-y-4 max-w-4xl mx-auto">
-        {/* Search bar */}
-        <div className="relative">
-          <Search className="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" />
-          <input
-            type="text"
-            value={busca}
-            onChange={(e) => setBusca(e.target.value)}
-            placeholder="Pesquisar alimento ou substância (ex: morango, tomate, acefato, maçã)..."
-            className="w-full rounded-full border border-border bg-card pl-11 pr-4 py-3 text-sm outline-none focus:border-primary shadow-sm"
-          />
-          {busca && (
+      <section className="w-full bg-[#fbf1da] py-8 md:py-10 border-b border-[#ecdcb8]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 space-y-4 max-w-4xl mx-auto">
+          {/* Search bar */}
+          <div className="relative">
+            <Search className="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" />
+            <input
+              type="text"
+              value={busca}
+              onChange={(e) => setBusca(e.target.value)}
+              placeholder="Pesquisar alimento ou substância (ex: morango, tomate, acefato, maçã)..."
+              className="w-full rounded-full border border-border/80 bg-card pl-11 pr-4 py-3 text-sm outline-none focus:border-primary shadow-xs"
+            />
+            {busca && (
+              <button
+                onClick={() => setBusca("")}
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-bold text-muted-foreground hover:text-foreground cursor-pointer"
+              >
+                Limpar
+              </button>
+            )}
+          </div>
+
+          {/* Category chips */}
+          <div className="flex flex-wrap items-center gap-1.5 justify-center">
+            {categorias.map((cat) => {
+              const active = categoriaAtiva === cat;
+              return (
+                <button
+                  key={cat}
+                  onClick={() => setCategoriaAtiva(cat)}
+                  className={`text-xs font-semibold px-3.5 py-1.5 rounded-full border transition cursor-pointer ${
+                    active
+                      ? "bg-primary text-primary-foreground border-primary shadow-xs"
+                      : "border-border/80 bg-card hover:border-primary/50 text-foreground/80"
+                  }`}
+                >
+                  {cat}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Attention level filter pills */}
+          <div className="flex flex-wrap items-center justify-center gap-2 pt-1 text-xs">
+            <span className="font-semibold text-muted-foreground mr-1">Filtrar por risco:</span>
             <button
-              onClick={() => setBusca("")}
-              className="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-bold text-muted-foreground hover:text-foreground cursor-pointer"
+              onClick={() => setNivelAtivo("Todos")}
+              className={`px-3 py-1 rounded-full border font-medium cursor-pointer transition ${
+                nivelAtivo === "Todos" ? "bg-foreground text-background" : "bg-card border-border"
+              }`}
             >
-              Limpar
+              Todos ({ALIMENTOS.length})
             </button>
-          )}
+            {(Object.keys(NIVEIS_ATENCAO) as (keyof typeof NIVEIS_ATENCAO)[]).map((chave) => {
+              const nivel = NIVEIS_ATENCAO[chave];
+              const active = nivelAtivo === chave;
+              const count = ALIMENTOS.filter((a) => a.nivel_atencao === chave).length;
+              return (
+                <button
+                  key={chave}
+                  onClick={() => setNivelAtivo(chave)}
+                  className={`px-3 py-1 rounded-full border font-medium cursor-pointer transition flex items-center gap-1.5 ${
+                    active
+                      ? "border-primary bg-primary/15 font-bold text-foreground"
+                      : "border-border bg-card hover:border-primary/40 text-foreground/75"
+                  }`}
+                >
+                  <span>{nivel.emoji}</span>
+                  <span>{nivel.rotulo}</span>
+                  <span className="opacity-60 text-xs">({count})</span>
+                </button>
+              );
+            })}
+          </div>
         </div>
-
-        {/* Category chips */}
-        <div className="flex flex-wrap items-center gap-1.5 justify-center">
-          {categorias.map((cat) => {
-            const active = categoriaAtiva === cat;
-            return (
-              <button
-                key={cat}
-                onClick={() => setCategoriaAtiva(cat)}
-                className={`text-xs font-semibold px-3.5 py-1.5 rounded-full border transition cursor-pointer ${
-                  active
-                    ? "bg-primary text-primary-foreground border-primary shadow-sm"
-                    : "border-border bg-card hover:border-primary/50 text-foreground/80"
-                }`}
-              >
-                {cat}
-              </button>
-            );
-          })}
-        </div>
-
-        {/* Attention level filter pills */}
-        <div className="flex flex-wrap items-center justify-center gap-2 pt-1 text-xs">
-          <span className="font-semibold text-muted-foreground mr-1">Filtrar por risco:</span>
-          <button
-            onClick={() => setNivelAtivo("Todos")}
-            className={`px-3 py-1 rounded-full border font-medium cursor-pointer transition ${
-              nivelAtivo === "Todos" ? "bg-foreground text-background" : "bg-card border-border"
-            }`}
-          >
-            Todos ({ALIMENTOS.length})
-          </button>
-          {(Object.keys(NIVEIS_ATENCAO) as (keyof typeof NIVEIS_ATENCAO)[]).map((chave) => {
-            const nivel = NIVEIS_ATENCAO[chave];
-            const active = nivelAtivo === chave;
-            const count = ALIMENTOS.filter((a) => a.nivel_atencao === chave).length;
-            return (
-              <button
-                key={chave}
-                onClick={() => setNivelAtivo(chave)}
-                className={`px-3 py-1 rounded-full border font-medium cursor-pointer transition flex items-center gap-1.5 ${
-                  active
-                    ? "border-primary bg-primary/15 font-bold text-foreground"
-                    : "border-border bg-card hover:border-primary/40 text-foreground/75"
-                }`}
-              >
-                <span>{nivel.emoji}</span>
-                <span>{nivel.rotulo}</span>
-                <span className="opacity-60 text-xs">({count})</span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* Results Count */}
-      <div className="text-center text-xs font-semibold text-muted-foreground">
-        Exibindo {alimentosFiltrados.length} de {ALIMENTOS.length} alimentos
-      </div>
+      </section>
 
       {/* Grid of 3D Flip Cards */}
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <section className="w-full bg-[#f4efe3] py-12 md:py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 space-y-6">
+          {/* Results Count */}
+          <div className="text-center text-xs font-semibold text-muted-foreground">
+            Exibindo {alimentosFiltrados.length} de {ALIMENTOS.length} alimentos
+          </div>
+
+          {/* Grid of 3D Flip Cards */}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {alimentosFiltrados.map((item) => {
           const isFlipped = !!flippedCards[item.id];
           const nivel = NIVEIS_ATENCAO[item.nivel_atencao] || NIVEIS_ATENCAO.moderado;
@@ -365,6 +374,8 @@ export const AlimentosView: React.FC = () => {
           </button>
         </div>
       )}
-    </section>
+        </div>
+      </section>
+    </div>
   );
 };

@@ -64,12 +64,21 @@ export const MeuDiaView: React.FC<MeuDiaViewProps> = ({ navigate }) => {
   const refeicoes = registroDia.refeicoes;
   const totalAlimentos = refeicoes.reduce((acc, r) => acc + (r.status !== "nao-faco" ? r.consumos.length : 0), 0);
   const totalCuidados = refeicoes.reduce(
-    (acc, r) => acc + r.consumos.reduce((s, c) => s + c.cuidados.length, 0),
+    (acc, r) => acc + r.consumos.reduce((s, c) => s + c.cuidados.filter((id) => id !== "nenhuma-acao").length, 0),
     0
   );
   const refeicoesOrganizadas = refeicoes.filter((r) => r.status !== "pendente").length;
 
-  const totalCuidadosPossiveis = totalAlimentos * CUIDADOS_PADRAO.length;
+  const acoesCuidadosPadrao = CUIDADOS_PADRAO.filter((c) => c.id !== "nenhuma-acao");
+  const alimentosComAcoesPossiveis = refeicoes.reduce(
+    (acc, r) =>
+      acc +
+      (r.status !== "nao-faco"
+        ? r.consumos.filter((c) => !c.cuidados.includes("nenhuma-acao")).length
+        : 0),
+    0
+  );
+  const totalCuidadosPossiveis = alimentosComAcoesPossiveis * acoesCuidadosPadrao.length;
   const indiceCuidado =
     totalCuidadosPossiveis > 0
       ? Math.min(100, Math.round((totalCuidados / totalCuidadosPossiveis) * 100))
@@ -85,7 +94,7 @@ export const MeuDiaView: React.FC<MeuDiaViewProps> = ({ navigate }) => {
   };
 
   return (
-    <section className="max-w-4xl mx-auto px-4 sm:px-6 py-10 md:py-16 space-y-8">
+    <div className="w-full flex flex-col">
       {/* Floating Points Notification */}
       {pontosGanhosFeedback !== null && (
         <div className="fixed top-20 left-1/2 -translate-x-1/2 z-50 pointer-events-none rounded-full bg-primary text-primary-foreground font-bold text-sm px-6 py-2.5 shadow-2xl animate-[pontos-sobe_1.6s_ease-out_forwards] border-2 border-white/20 flex items-center gap-2">
@@ -94,80 +103,87 @@ export const MeuDiaView: React.FC<MeuDiaViewProps> = ({ navigate }) => {
         </div>
       )}
 
-      {/* Header */}
-      <div className="text-center">
-        <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[var(--leaf)]">
-          <Sparkles className="w-3.5 h-3.5" />
-          Seu Diário Alimentar Consciente
-        </span>
-        <h1 className="mt-2 text-4xl md:text-5xl font-display font-bold text-primary">
-          Meu Dia
-        </h1>
-        <p className="mt-2 text-foreground/75 text-sm sm:text-base">
-          {formatarDataExtenso(dataSelecionada)}
-        </p>
+      {/* Header & Metrics Section */}
+      <section className="w-full bg-[#def0dd] py-12 md:py-16 border-b border-[#b8deba]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 space-y-8">
+          {/* Header */}
+          <div className="text-center">
+            <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[var(--leaf)]">
+              <Sparkles className="w-3.5 h-3.5" />
+              Seu Diário Alimentar Consciente
+            </span>
+            <h1 className="mt-2 text-4xl md:text-5xl font-display font-bold text-primary">
+              Meu Dia
+            </h1>
+            <p className="mt-2 text-foreground/75 text-sm sm:text-base">
+              {formatarDataExtenso(dataSelecionada)}
+            </p>
 
-        {/* Date Picker */}
-        <div className="mt-3 flex items-center justify-center gap-2">
-          <Calendar className="w-4 h-4 text-muted-foreground" />
-          <input
-            type="date"
-            value={dataSelecionada}
-            max={getHojeString()}
-            onChange={(e) => setDataSelecionada(e.target.value)}
-            className="rounded-full border border-border bg-card px-4 py-1.5 text-xs font-semibold text-foreground outline-none shadow-xs hover:border-primary cursor-pointer"
-          />
+            {/* Date Picker */}
+            <div className="mt-3 flex items-center justify-center gap-2">
+              <Calendar className="w-4 h-4 text-muted-foreground" />
+              <input
+                type="date"
+                value={dataSelecionada}
+                max={getHojeString()}
+                onChange={(e) => setDataSelecionada(e.target.value)}
+                className="rounded-full border border-border bg-card px-4 py-1.5 text-xs font-semibold text-foreground outline-none shadow-xs hover:border-primary cursor-pointer"
+              />
+            </div>
+          </div>
+
+          {/* Metrics Row */}
+          <div className="grid sm:grid-cols-3 gap-3">
+            <div className="rounded-2xl border border-border/80 bg-card p-4 text-center shadow-xs">
+              <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
+                Pontos de hoje
+              </div>
+              <div className="mt-1 font-display text-3xl font-bold text-primary">
+                🌱 {pontosHoje}
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-border/80 bg-card p-4 text-center shadow-xs">
+              <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
+                Refeições organizadas
+              </div>
+              <div className="mt-1 font-display text-3xl font-bold text-primary">
+                {refeicoesOrganizadas}/{refeicoes.length}
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-border/80 bg-card p-4 text-center shadow-xs">
+              <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
+                Índice de Cuidado
+              </div>
+              <div className="mt-1 font-display text-3xl font-bold text-primary">
+                {indiceCuidado === null ? (
+                  "—"
+                ) : (
+                  <span>
+                    {getMensagemIndice(indiceCuidado).emoji} {indiceCuidado}/100
+                  </span>
+                )}
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      {/* Metrics Row */}
-      <div className="grid sm:grid-cols-3 gap-3">
-        <div className="rounded-2xl border border-border bg-card p-4 text-center shadow-xs">
-          <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
-            Pontos de hoje
-          </div>
-          <div className="mt-1 font-display text-3xl font-bold text-primary">
-            🌱 {pontosHoje}
-          </div>
-        </div>
+      {/* Meals Section */}
+      <section className="w-full bg-[#f4efe3] py-12 md:py-16 border-b border-[#e2d6c1]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 space-y-4">
+          {refeicoes.map((refeicao) => {
+            const naoFaco = refeicao.status === "nao-faco";
+            const mealBgClass = naoFaco
+              ? "border-dashed border-border/70 bg-[#ede7dc]/40 opacity-70"
+              : "border border-[#c6dcc3] bg-card shadow-xs hover:border-primary/50";
 
-        <div className="rounded-2xl border border-border bg-card p-4 text-center shadow-xs">
-          <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
-            Refeições organizadas
-          </div>
-          <div className="mt-1 font-display text-3xl font-bold text-primary">
-            {refeicoesOrganizadas}/{refeicoes.length}
-          </div>
-        </div>
-
-        <div className="rounded-2xl border border-border bg-card p-4 text-center shadow-xs">
-          <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
-            Índice de Cuidado
-          </div>
-          <div className="mt-1 font-display text-3xl font-bold text-primary">
-            {indiceCuidado === null ? (
-              "—"
-            ) : (
-              <span>
-                {getMensagemIndice(indiceCuidado).emoji} {indiceCuidado}/100
-              </span>
-            )}
-          </div>
-        </div>
-      </div>
-
-      {/* Meals List */}
-      <div className="space-y-4">
-        {refeicoes.map((refeicao) => {
-          const naoFaco = refeicao.status === "nao-faco";
-
-          return (
-            <article
-              key={refeicao.tipo}
-              className={`rounded-3xl border p-5 transition ${
-                naoFaco ? "border-border bg-secondary/30" : "border-border bg-card shadow-xs"
-              }`}
-            >
+            return (
+              <article
+                key={refeicao.tipo}
+                className={`rounded-3xl border p-5 transition shadow-xs ${mealBgClass}`}
+              >
               {/* Meal Header */}
               <div className="flex items-center justify-between gap-3">
                 <div className="flex items-center gap-3">
@@ -198,7 +214,7 @@ export const MeuDiaView: React.FC<MeuDiaViewProps> = ({ navigate }) => {
                     return (
                       <li
                         key={consumo.id}
-                        className="rounded-2xl border border-border bg-background/70 p-3.5 space-y-3"
+                        className="rounded-2xl border border-border/70 bg-[#fbf7ee] p-3.5 space-y-3"
                       >
                         {/* Top: Food Info */}
                         <div className="flex items-center gap-3">
@@ -236,7 +252,9 @@ export const MeuDiaView: React.FC<MeuDiaViewProps> = ({ navigate }) => {
                                 {nivel.emoji} {nivel.rotulo}
                               </span>
                               <span className="text-xs text-muted-foreground">
-                                {consumo.cuidados.length} de {CUIDADOS_PADRAO.length} cuidados
+                                {consumo.cuidados.includes("nenhuma-acao")
+                                  ? "Nenhuma ação anterior possível"
+                                  : `${consumo.cuidados.length} de ${acoesCuidadosPadrao.length} cuidados`}
                               </span>
                             </div>
                           </button>
@@ -302,35 +320,40 @@ export const MeuDiaView: React.FC<MeuDiaViewProps> = ({ navigate }) => {
             </article>
           );
         })}
-      </div>
+        </div>
+      </section>
 
       {/* Resumo do Dia */}
-      <div className="rounded-3xl border border-border bg-card p-6 sm:p-8 text-center space-y-3 shadow-sm">
-        <h2 className="font-display text-2xl font-bold text-primary">
-          🌟 Resumo do dia
-        </h2>
-        <p className="text-sm text-foreground/85">
-          Você registrou <strong>{totalAlimentos}</strong>{" "}
-          {totalAlimentos === 1 ? "alimento" : "alimentos"} e <strong>{totalCuidados}</strong>{" "}
-          {totalCuidados === 1 ? "cuidado" : "cuidados"} em <strong>{refeicoesOrganizadas}</strong>{" "}
-          de {refeicoes.length} refeições.
-        </p>
-        <p className="text-xs sm:text-sm text-foreground/75 italic max-w-xl mx-auto">
-          {indiceCuidado === null
-            ? "Quando quiser, registre um alimento para começar. Não existe dia certo ou errado por aqui."
-            : getMensagemIndice(indiceCuidado).mensagem}
-        </p>
+      <section className="w-full bg-[#e8f4e6] py-12 md:py-16 border-b border-[#c2e2bf]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <div className="rounded-3xl border border-[#c6dcc3] bg-card p-6 sm:p-8 text-center space-y-3 shadow-sm">
+            <h2 className="font-display text-2xl font-bold text-primary">
+              🌟 Resumo do dia
+            </h2>
+            <p className="text-sm text-foreground/85">
+              Você registrou <strong>{totalAlimentos}</strong>{" "}
+              {totalAlimentos === 1 ? "alimento" : "alimentos"} e <strong>{totalCuidados}</strong>{" "}
+              {totalCuidados === 1 ? "cuidado" : "cuidados"} em <strong>{refeicoesOrganizadas}</strong>{" "}
+              de {refeicoes.length} refeições.
+            </p>
+            <p className="text-xs sm:text-sm text-foreground/75 italic max-w-xl mx-auto">
+              {indiceCuidado === null
+                ? "Quando quiser, registre um alimento para começar. Não existe dia certo ou errado por aqui."
+                : getMensagemIndice(indiceCuidado).mensagem}
+            </p>
 
-        <div className="pt-3">
-          <button
-            onClick={() => navigate("/meu-perfil")}
-            className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground font-bold px-6 py-2.5 text-xs sm:text-sm hover:opacity-90 transition cursor-pointer shadow-xs"
-          >
-            Ver minha jornada e conquistas
-            <ArrowRight className="w-4 h-4" />
-          </button>
+            <div className="pt-3">
+              <button
+                onClick={() => navigate("/meu-perfil")}
+                className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground font-bold px-6 py-2.5 text-xs sm:text-sm hover:opacity-90 transition cursor-pointer shadow-xs"
+              >
+                Ver minha jornada e conquistas
+                <ArrowRight className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
       {/* MODAL: Adicionar Alimento */}
       {refeicaoParaAdicionar && (
@@ -364,7 +387,7 @@ export const MeuDiaView: React.FC<MeuDiaViewProps> = ({ navigate }) => {
           }}
         />
       )}
-    </section>
+    </div>
   );
 };
 
@@ -390,9 +413,16 @@ const ChecklistCuidados: React.FC<ChecklistCuidadosProps> = ({
   }, [selecionados]);
 
   const toggleItem = (id: string) => {
-    setSelecionadosState((prev) =>
-      prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
-    );
+    setSelecionadosState((prev) => {
+      if (id === "nenhuma-acao") {
+        return prev.includes("nenhuma-acao") ? [] : ["nenhuma-acao"];
+      } else {
+        const semNenhuma = prev.filter((item) => item !== "nenhuma-acao");
+        return semNenhuma.includes(id)
+          ? semNenhuma.filter((item) => item !== id)
+          : [...semNenhuma, id];
+      }
+    });
   };
 
   const totalPts = cuidados
@@ -418,38 +448,53 @@ const ChecklistCuidados: React.FC<ChecklistCuidadosProps> = ({
       <div className="mt-2.5 space-y-1.5">
         {cuidados.map((item) => {
           const ativo = selecionadosState.includes(item.id);
+          const isNenhuma = item.id === "nenhuma-acao";
           return (
-            <button
-              key={item.id}
-              type="button"
-              onClick={() => toggleItem(item.id)}
-              className={`w-full text-left flex items-start gap-2.5 rounded-xl border p-2 text-xs transition cursor-pointer ${
-                ativo
-                  ? "border-primary bg-primary/15 font-semibold text-foreground animate-[cuidado-pulsa_0.3s_ease-out]"
-                  : "border-border bg-card hover:border-primary/50 text-foreground/80"
-              }`}
-            >
-              <span
-                className={`mt-0.5 w-4 h-4 rounded-md border flex items-center justify-center shrink-0 transition ${
-                  ativo ? "bg-primary border-primary text-primary-foreground" : "border-border"
+            <React.Fragment key={item.id}>
+              {isNenhuma && (
+                <div className="pt-1.5 border-t border-border/70 my-1" />
+              )}
+              <button
+                type="button"
+                onClick={() => toggleItem(item.id)}
+                className={`w-full text-left flex items-start gap-2.5 rounded-xl border p-2 text-xs transition cursor-pointer ${
+                  ativo
+                    ? isNenhuma
+                      ? "border-amber-500/60 bg-amber-500/15 font-semibold text-foreground animate-[cuidado-pulsa_0.3s_ease-out]"
+                      : "border-primary bg-primary/15 font-semibold text-foreground animate-[cuidado-pulsa_0.3s_ease-out]"
+                    : "border-border bg-card hover:border-primary/50 text-foreground/80"
                 }`}
               >
-                {ativo && <Check className="w-3 h-3" />}
-              </span>
+                <span
+                  className={`mt-0.5 w-4 h-4 rounded-md border flex items-center justify-center shrink-0 transition ${
+                    ativo
+                      ? isNenhuma
+                        ? "bg-amber-600 border-amber-600 text-white"
+                        : "bg-primary border-primary text-primary-foreground"
+                      : "border-border"
+                  }`}
+                >
+                  {ativo && <Check className="w-3 h-3" />}
+                </span>
 
-              <div className="flex-1 leading-tight">
-                <span className="block font-semibold">{item.nome}</span>
-                {item.descricao && !compacto && (
-                  <span className="block text-xs text-muted-foreground mt-0.5">
-                    {item.descricao}
-                  </span>
-                )}
-              </div>
+                <div className="flex-1 leading-tight">
+                  <span className="block font-semibold">{item.nome}</span>
+                  {item.descricao && !compacto && (
+                    <span className="block text-xs text-muted-foreground mt-0.5">
+                      {item.descricao}
+                    </span>
+                  )}
+                </div>
 
-              <span className="text-xs font-bold text-primary shrink-0">
-                +{item.pontos}
-              </span>
-            </button>
+                <span
+                  className={`text-xs font-bold shrink-0 ${
+                    isNenhuma ? "text-muted-foreground" : "text-primary"
+                  }`}
+                >
+                  {item.pontos > 0 ? `+${item.pontos}` : "0 pts"}
+                </span>
+              </button>
+            </React.Fragment>
           );
         })}
       </div>
@@ -464,7 +509,13 @@ const ChecklistCuidados: React.FC<ChecklistCuidadosProps> = ({
         }}
         className="mt-3 w-full rounded-full bg-primary text-primary-foreground font-bold py-2 text-xs hover:opacity-90 transition disabled:opacity-60 cursor-pointer shadow-xs"
       >
-        {salvando ? "Salvando…" : `Salvar cuidados 🌱 ${totalPts} pts`}
+        {salvando
+          ? "Salvando…"
+          : totalPts > 0
+          ? `Salvar cuidados 🌱 ${totalPts} pts`
+          : selecionadosState.includes("nenhuma-acao")
+          ? "Salvar escolha consciente"
+          : "Salvar cuidados"}
       </button>
     </div>
   );
