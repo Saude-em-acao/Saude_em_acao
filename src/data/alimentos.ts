@@ -720,8 +720,12 @@ export const ALIMENTOS: Alimento[] = [
       "Imidacloprido",
       "Tiametoxam"
     ],
-    "riscos": [],
-    "imagem_url": "https://loremflickr.com/800/600/acerola,cherry?lock=15",
+    "riscos": [
+      "Fruta delicada de casca fina que frequentemente recebe aplicações de inseticidas contra pragas",
+      "Resíduos químicos de superfície penetram rapidamente na polpa macia",
+      "Consumida frequentemente in natura ou em sucos integrais sem retirada da casca"
+    ],
+    "imagem_url": "/assets/acerola.jpg",
     "saiba_mais": "Acerola faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
     "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
