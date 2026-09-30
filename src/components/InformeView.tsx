@@ -103,7 +103,7 @@ export const InformeView: React.FC = () => {
                   Nova Fonte em Destaque
                 </div>
                 <h3 className="text-base sm:text-lg font-bold text-foreground mt-1">
-                  Série de Pesquisas: Tem Veneno Nesse Pacote (IDEC)
+                  Série de Pesquisas: Defensivos em Alimentos (IDEC)
                 </h3>
                 <p className="text-xs sm:text-sm text-foreground/75 mt-0.5">
                   Confira os artigos educativos baseados nos três volumes dos estudos laboratoriais do IDEC (2021, 2022 e 2024) sobre resíduos de defensivos agrícolas em alimentos ultraprocessados.

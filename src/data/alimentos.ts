@@ -42,7 +42,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Morango faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -51,7 +51,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -76,7 +76,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "/assets/uva.jpg",
     "saiba_mais": "Uva faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -85,7 +85,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -111,7 +111,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1547514701-42782101795e?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Laranja faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -120,7 +120,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -145,7 +145,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Abacaxi faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -154,7 +154,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -179,7 +179,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Maçã faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -188,7 +188,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -213,7 +213,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Banana faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -222,7 +222,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -247,7 +247,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Manga faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -256,7 +256,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -281,7 +281,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1601039641847-7857b994d704?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Abacate faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -290,7 +290,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -315,7 +315,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Melão faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -324,7 +324,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -349,7 +349,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Melancia faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -358,7 +358,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -383,7 +383,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1514756331096-242fdeb70d4a?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Pera faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -392,7 +392,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -417,7 +417,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Autumn_Red_peaches.jpg?width=800",
     "saiba_mais": "Pêssego faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -426,7 +426,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -451,7 +451,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1536511132770-e5058c7e8c46?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Goiaba faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -460,7 +460,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -485,7 +485,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/P1030323.JPG/960px-P1030323.JPG",
     "saiba_mais": "Limão faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -494,7 +494,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -519,7 +519,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/TangerineFruit.jpg",
     "saiba_mais": "Mexerica / Tangerina faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -528,7 +528,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -553,7 +553,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1617112848923-cc2234396a8d?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Mamão faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -562,7 +562,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -587,7 +587,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1604495772376-9657f0035eb5?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Maracujá faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -596,7 +596,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -621,7 +621,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiwi_aka.jpg?width=800",
     "saiba_mais": "Kiwi faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -630,7 +630,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -655,7 +655,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Plums_African_Rose_-_whole%2C_halved_and_slice.jpg/960px-Plums_African_Rose_-_whole%2C_halved_and_slice.jpg",
     "saiba_mais": "Ameixa faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -664,7 +664,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -689,7 +689,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cashew_apples.jpg/960px-Cashew_apples.jpg",
     "saiba_mais": "Caju faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -698,7 +698,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -723,7 +723,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://loremflickr.com/800/600/acerola,cherry?lock=15",
     "saiba_mais": "Acerola faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -732,7 +732,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -757,7 +757,7 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [],
     "imagem_url": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Mirtilo / Amora faz parte do grupo de frutas avaliado nos relatórios de monitoramento de resíduos químicos.",
-    "cuidados_texto": "Lave em água corrente e friccione a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
+    "cuidados_texto": "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos. Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos. Enxágue novamente e, quando fizer sentido, descarte a casca.",
     "fontes": [
       "Baseado na reportagem do R7 sobre higienização e redução de resíduos de superfície.",
       "Fiocruz",
@@ -766,7 +766,7 @@ export const ALIMENTOS: Alimento[] = [
     "limpeza": {
       "metodo": "Frutas com casca fina",
       "passos": [
-        "Lave em água corrente e friccione a casca por cerca de 30 segundos.",
+        "Lave em água corrente e esfregue suavemente a casca por cerca de 30 segundos.",
         "Deixe de molho em solução com pequena quantidade de bicarbonato por até 15 minutos.",
         "Enxágue novamente e, quando fizer sentido, descarte a casca."
       ],
@@ -1835,7 +1835,7 @@ export const ALIMENTOS: Alimento[] = [
     "nome": "Soja",
     "emoji": "🌱",
     "categoria": "Grãos",
-    "rank": "Cultivo com mais defensores agrícolas no Brasil",
+    "rank": "Cultivo com mais defensivos agrícolas no Brasil",
     "cor": "leaf",
     "nivel_atencao": "baixo",
     "defensivos": [
@@ -2016,28 +2016,28 @@ export const ALIMENTOS: Alimento[] = [
       "Butóxido de piperonila"
     ],
     "riscos": [
-      "Exposição combinada a múltiplos resíduos de defensivos agrícolas em um único alimento (efeito coquetel)",
-      "Glifosato é classificado como provável carcinógeno humano pela IARC/OMS",
-      "Potenciais efeitos cumulativos no trato gastrointestinal e na saúde metabólica"
+      "Mistura de vários pesticidas em um mesmo pacote (o corpo recebe vários químicos juntos)",
+      "O glifosato tem alerta da Organização Mundial da Saúde (OMS) como provável causador de câncer",
+      "Pode inflamar o intestino e desregular o metabolismo com o consumo frequente"
     ],
     "imagem_url": "/assets/biscoito-de-agua-e-sal.jpg",
-    "saiba_mais": "Na análise laboratorial apresentada na cartilha (Vol. 1), foram encontrados resíduos de defensivos agrícolas em amostras dessa categoria, com até 7 ingredientes ativos diferentes e o sinergista butóxido de piperonila detectados em uma mesma amostra.",
+    "saiba_mais": "Na análise laboratorial apresentada na cartilha (Vol. 1), foram encontrados resíduos de defensivos agrícolas em amostras dessa categoria, com até 7 pesticidas diferentes e um aditivo que faz o defensivo agir por mais tempo (butóxido de piperonila) encontrados em uma mesma amostra.",
     "cuidados_texto": "O processamento industrial e o forno não eliminam os resíduos químicos incorporados ao trigo. A recomendação do Guia Alimentar é reduzir o consumo de ultraprocessados e preferir pães ou biscoitos artesanais feitos com farinhas integrais de base agroecológica.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 1, 2021)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 1, 2021)",
       "IARC / Organização Mundial da Saúde (OMS)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
       "metodo": "Prevenção & Recomendações de Consumo",
       "passos": [
-        "Produtos ultraprocessados não podem ser higienizados para remoção de defensivos químicos.",
+        "Não é possível lavar alimentos empacotados para retirar os pesticidas já incorporados.",
         "Reduza a frequência e a quantidade de consumo de biscoitos industrializados empacotados.",
         "Substitua por alternativas caseiras ou artesanais feitas com ingredientes in natura ou minimamente processados.",
         "Sempre que viável, procure por produtos elaborados com farinha de trigo de cultivo orgânico ou agroecológico."
       ],
-      "observacao": "O calor do cozimento e a moagem dos grãos não são suficientes para degradar resíduos agrícolas sistêmicos como o glifosato.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 1) e Guia Alimentar para a População Brasileira."
+      "observacao": "O calor do forno na fábrica e a moagem do trigo não conseguem eliminar os pesticidas agrícolas.",
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 1) e Guia Alimentar para a População Brasileira."
     }
   },
   {
@@ -2055,27 +2055,27 @@ export const ALIMENTOS: Alimento[] = [
       "Butóxido de piperonila"
     ],
     "riscos": [
-      "Associação de altas cargas de açúcares simples e gorduras com resíduos químicos",
-      "Clorpirifós apresenta toxicidade neurológica amplamente documentada na literatura científica",
-      "Forte apelo comercial e consumo habitual na infância aumentam a vulnerabilidade biológica"
+      "Mistura de muito açúcar e gordura com restos de agroquímicos da lavoura",
+      "Contém inseticidas que atacam o cérebro, a memória e o sistema nervoso",
+      "Muito consumido por crianças, que têm o corpinho em formação e sofrem mais com os pesticidas"
     ],
     "imagem_url": "/assets/biscoito-recheado.jpg",
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 1), foram encontrados resíduos de defensivos agrícolas em amostras dessa categoria, com variação de 2 a 7 compostos químicos detectados nos lotes avaliados.",
-    "cuidados_texto": "Alimentos ultraprocessados não permitem higienização doméstica. A principal diretriz protetiva é desestimular o consumo rotineiro, especialmente entre crianças, oferecendo lanches naturais como frutas frescas e castanhas.",
+    "cuidados_texto": "Não dá para lavar ou desinfetar alimentos empacotados em casa. A principal diretriz protetiva é desestimular o consumo rotineiro, especialmente entre crianças, oferecendo lanches naturais como frutas frescas e castanhas.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 1, 2021)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 1, 2021)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
       "metodo": "Prevenção & Recomendações de Consumo",
       "passos": [
-        "Não é possível lavar ou remover defensivos químicos presentes na massa ou no recheio industrial.",
+        "Não dá para lavar ou retirar os pesticidas que já entraram na massa e no recheio.",
         "Limite o consumo de biscoitos recheados ao máximo no dia a dia alimentar da família.",
         "Substitua nos lanches infantis por frutas frescas da estação, bolos caseiros simples e iogurtes naturais com mel ou geleia de fruta.",
         "Priorize lanches elaborados em casa onde você controla a procedência de cada ingrediente."
       ],
-      "observacao": "A combinação de múltiplos resíduos químicos com aditivos alimentares (emulsificantes, corantes) é característica comum a ultraprocessados.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 1) e Guia Alimentar."
+      "observacao": "A combinação de múltiplos resíduos químicos com aditivos químicos da fábrica (corantes e conservantes) é característica comum a ultraprocessados.",
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 1) e Guia Alimentar."
     }
   },
   {
@@ -2094,15 +2094,15 @@ export const ALIMENTOS: Alimento[] = [
       "Butóxido de piperonila"
     ],
     "riscos": [
-      "Farinha de trigo figurou como a matéria-prima com maior diversidade de defensivos nas análises",
-      "Presença simultânea de inseticidas neurotóxicos e herbicidas sistêmicos",
-      "Exposição cumulativa em itens tradicionalmente consumidos de forma diária"
+      "O trigo das fábricas foi a matéria-prima com maior variedade de agroquímicos nos testes",
+      "Contém pesticidas contra insetos e contra mato que entram na massa do alimento",
+      "Risco de acúmulo no corpo por ser um alimento consumido quase todos os dias"
     ],
     "imagem_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 1), todos os produtos que utilizavam trigo como ingrediente apresentaram defensivos agrícolas, com amostras de bisnaguinhas registrando até 8 tipos de resíduos e sinergistas.",
     "cuidados_texto": "Como o defensivo fica entranhado no grão e na farinha durante a moagem, o cozimento no forno não o retira. Recomenda-se dar preferência a pães de fermentação natural de padarias locais ou pães feitos com trigo de cultivo agroecológico.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 1, 2021)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 1, 2021)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2114,7 +2114,7 @@ export const ALIMENTOS: Alimento[] = [
         "Varie as fontes de carboidratos da refeição com raízes e tubérculos cozidos (mandioca, batata-doce, cará, inhame)."
       ],
       "observacao": "A diversificação dos carboidratos do café da manhã reduz a dependência de derivados de trigo industrializado.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 1) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 1) e Guia Alimentar."
     }
   },
   {
@@ -2137,7 +2137,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 1), foram encontrados resíduos de defensivos agrícolas em amostras dessa categoria, inclusive em versões comercializadas com apelo à saúde e fibras.",
     "cuidados_texto": "Opte por grãos integrais in natura ou minimamente processados, como aveia em flocos laminada, farelos e sementes não ultraprocessadas, combinadas com frutas frescas picadas.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 1, 2021)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 1, 2021)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2149,7 +2149,7 @@ export const ALIMENTOS: Alimento[] = [
         "Caso compre cereais embalados, opte por marcas com selo de produto orgânico do Brasil."
       ],
       "observacao": "Alimentos ultraprocessados com enriquecimento de vitaminas não substituem a densidade nutricional de cereais integrais in natura.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 1) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 1) e Guia Alimentar."
     }
   },
   {
@@ -2174,7 +2174,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 1), amostras de salgadinhos à base de milho e trigo apresentaram resíduos de herbicidas e inseticidas, demonstrando a transferência de substâncias das lavouras para o snack empacotado.",
     "cuidados_texto": "Evite manter salgadinhos de pacote em casa. Dê preferência a aperitivos caseiros, como pipoca tradicional de milho feita na panela com pouco óleo, sementes de abóbora tostadas ou chips caseiros de batata ou mandioca assados.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 1, 2021)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 1, 2021)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2186,7 +2186,7 @@ export const ALIMENTOS: Alimento[] = [
         "Explore snacks de vegetais frescos (palitinhos de cenoura, pepino) acompanhados de pastas naturais."
       ],
       "observacao": "O alto teor de aditivos realçadores estimula o consumo excessivo de calorias e resíduos de forma passiva.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 1) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 1) e Guia Alimentar."
     }
   },
   {
@@ -2203,13 +2203,13 @@ export const ALIMENTOS: Alimento[] = [
     "riscos": [
       "Glifosato é amplamente empregado na dessecação e manejo da soja transgênica em grande escala",
       "Classificado pela Agência Internacional de Pesquisa em Câncer (IARC/OMS) como provável carcinógeno",
-      "Persistência de metabólitos no processamento do extrato vegetal"
+      "Presença de substâncias derivadas no processamento do extrato vegetal"
     ],
     "imagem_url": "https://images.unsplash.com/photo-1528750997573-59b89d56f4f7?auto=format&fit=crop&w=800&q=80",
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 1), foi detectado resíduo do herbicida glifosato em amostra de bebida à base de soja tradicional, refletindo a dependência desse insumo nas cadeias agroindustriais de grãos.",
     "cuidados_texto": "Para quem consome extratos vegetais, recomenda-se verificar o rótulo em busca de certificação orgânica ou preparar bebidas caseiras com grãos e castanhas de procedência conhecida.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 1, 2021)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 1, 2021)",
       "IARC / Organização Mundial da Saúde (OMS)"
     ],
     "limpeza": {
@@ -2221,7 +2221,7 @@ export const ALIMENTOS: Alimento[] = [
         "Leia a lista de ingredientes para evitar marcas com açúcares refinados e aromatizantes artificiais adicionados."
       ],
       "observacao": "O selo de certificação orgânica assegura que a matéria-prima foi cultivada sem uso de herbicidas sintéticos como o glifosato.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 1)."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 1)."
     }
   },
   {
@@ -2241,7 +2241,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Nas análises laboratoriais da cartilha (Vol. 1), não foram detectados resíduos de defensivos agrícolas nas amostras avaliadas. O Idec e o Guia Alimentar ressaltam que, apesar do resultado analítico negativo para defensivos agrícolas no lote, o produto possui perfil nutricional crítico e deve ser evitado.",
     "cuidados_texto": "A melhor medida preventiva para a saúde é eliminar ou limitar severamente o consumo de refrigerantes, substituindo-os por água potável, água com gás e limão ou chás naturais gelados.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 1, 2021)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 1, 2021)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2253,7 +2253,7 @@ export const ALIMENTOS: Alimento[] = [
         "Evite o consumo de refrigerantes durante as refeições principais."
       ],
       "observacao": "O Guia Alimentar categoriza refrigerantes como alimentos ultraprocessados a serem evitados na totalidade.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 1) e Ministério da Saúde."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 1) e Ministério da Saúde."
     }
   },
   {
@@ -2273,7 +2273,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Nas amostras avaliadas na cartilha (Vol. 1), não foram identificados resíduos de defensivos agrícolas no lote analisado. O Idec destaca que néctares não se equiparam a sucos integrais nem a frutas frescas, contendo elevados teores de açúcar e aditivos.",
     "cuidados_texto": "Prefira comer a fruta inteira e fresca. Quando optar por sucos, prefira os 100% integrais espremidos na hora, sem adição de açúcares, ou polpas de frutas puras.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 1, 2021)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 1, 2021)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2285,7 +2285,7 @@ export const ALIMENTOS: Alimento[] = [
         "Lave bem as frutas frescas sob água corrente caso vá preparar suco natural em casa."
       ],
       "observacao": "A legislação brasileira permite que néctares tenham apenas entre 20% e 40% de polpa de fruta, sendo o restante água e açúcar.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 1) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 1) e Guia Alimentar."
     }
   },
   {
@@ -2313,7 +2313,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 2), foram identificados até 5 defensivos diferentes em uma única amostra de empanado de frango, além do sinergista butóxido de piperonila, revelando a complexidade da cadeia produtiva industrial.",
     "cuidados_texto": "Evite o consumo de empanados industriais congelados. Uma alternativa saudável e saborosa é preparar tiras de peito de frango fresco em casa, empanadas em aveia ou farinha de milho artesanal e assadas no forno.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 2, 2022)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 2, 2022)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2325,7 +2325,7 @@ export const ALIMENTOS: Alimento[] = [
         "Empane em flocos finos de aveia ou farinha integral caseira e asse no forno em vez de fritar em imersão."
       ],
       "observacao": "A presença de defensivos em derivados de frango evidencia que os defensivos agrícolas da lavoura passam para a ração e chegam aos alimentos de origem animal.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 2) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 2) e Guia Alimentar."
     }
   },
   {
@@ -2349,7 +2349,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 2), todas as amostras de salsicha testadas continham resíduos de defensivos agrícolas, carreados principalmente pela alimentação fornecida aos animais de criação intensiva.",
     "cuidados_texto": "O Guia Alimentar recomenda abster-se do consumo de carnes processadas como salsichas. Substitua por proteínas frescas in natura: ovos mexidos, peito de frango cozido desfiado, tofu ou leguminosas (feijões, lentilha, grão-de-bico).",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 2, 2022)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 2, 2022)",
       "IARC / Organização Mundial da Saúde (OMS)",
       "Guia Alimentar para a População Brasileira"
     ],
@@ -2362,7 +2362,7 @@ export const ALIMENTOS: Alimento[] = [
         "Promova o hábito de consumir alimentos preparados na hora a partir de ingredientes frescos."
       ],
       "observacao": "A fervura de salsichas apenas aquece o produto e não atua na degradação térmica dos herbicidas presentes na formulação.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 2) e IARC/OMS."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 2) e IARC/OMS."
     }
   },
   {
@@ -2377,7 +2377,7 @@ export const ALIMENTOS: Alimento[] = [
       "Metabólito AMPA"
     ],
     "riscos": [
-      "Todas as amostras testadas na cartilha apresentaram resíduos do herbicida glifosato e seu metabólito AMPA",
+      "Todas as amostras testadas na cartilha apresentaram resíduos do herbicida glifosato e seu derivado AMPA (substância gerada na decomposição do pesticida)",
       "Bioacumulação do defensivo através de rações industriais à base de grãos transgênicos",
       "Presença de gorduras saturadas, sódio e aditivos estabilizantes em discos de carne industriais"
     ],
@@ -2385,7 +2385,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 2), foram detectados resíduos de glifosato e AMPA em 100% das amostras de hambúrguer bovino analisadas, evidenciando o transporte de defensivos ao longo da cadeia pecuária.",
     "cuidados_texto": "Opte por hambúrgueres caseiros preparados com carne moída fresca comprada em açougues confiáveis, temperada em casa com alho, cebola e pimenta, ou por hambúrgueres artesanais de leguminosas (lentilha, feijão preto ou cogumelos).",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 2, 2022)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 2, 2022)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2397,7 +2397,7 @@ export const ALIMENTOS: Alimento[] = [
         "Evite produtos ultraprocessados de carne pré-prontos com listas extensas de aditivos industriais."
       ],
       "observacao": "O preparo caseiro a partir de cortes frescos in natura elimina o uso de emulsificantes, espessantes e conservantes industriais.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 2) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 2) e Guia Alimentar."
     }
   },
   {
@@ -2417,10 +2417,10 @@ export const ALIMENTOS: Alimento[] = [
       "Consumo rotineiro associado a riscos cardiovasculares e inflamatórios"
     ],
     "imagem_url": "/assets/linguica-suina.jpg",
-    "saiba_mais": "Na análise apresentada pela cartilha (Vol. 2), foram detectados resíduos de glifosato e do metabólito AMPA em amostra de linguiça calabresa, confirmando a persistência de defensivos agrícolas em carnes suínas curadas.",
+    "saiba_mais": "Na análise apresentada pela cartilha (Vol. 2), foram detectados resíduos de glifosato e da substância derivada AMPA em amostra de linguiça calabresa, confirmando a persistência de defensivos agrícolas em carnes suínas curadas.",
     "cuidados_texto": "Diminua o uso de embutidos curados em preparações culinárias. Para enriquecer caldos e pratos, utilize temperos naturais frescos como alho, cebola, louro, páprica defumada e cheiro-verde.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 2, 2022)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 2, 2022)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2432,7 +2432,7 @@ export const ALIMENTOS: Alimento[] = [
         "Ao consumir carnes suínas, prefira cortes frescos (lombo, pernil) preparados com temperos naturais."
       ],
       "observacao": "Substituir embutidos por cortes frescos preparados em casa reduz substancialmente a ingestão de nitritos e conservantes.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 2) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 2) e Guia Alimentar."
     }
   },
   {
@@ -2455,7 +2455,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 2), amostras de mortadela apresentaram resíduos de glifosato e AMPA, indicando que os defensivos utilizados na agricultura chegam até os embutidos populares.",
     "cuidados_texto": "Substitua fatias de mortadela por recheios nutritivos e frescos em sanduíches: queijo minas frescal, ovos mexidos, frango cozido com ricota ou pastas de vegetais e sementes.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 2, 2022)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 2, 2022)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2467,7 +2467,7 @@ export const ALIMENTOS: Alimento[] = [
         "Experimente pastas caseiras de grão-de-bico com azeite ou guacamole fresco."
       ],
       "observacao": "O Guia Alimentar aconselha a exclusão de embutidos gordurosos da rotina de refeições saudáveis.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 2)."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 2)."
     }
   },
   {
@@ -2493,7 +2493,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 2), amostras de requeijão apresentaram resíduos de múltiplos defensivos e do carrapaticida fluazurona em 2 das 3 marcas testadas, demonstrando a necessidade de rigor sanitário na cadeia leiteira.",
     "cuidados_texto": "Dê preferência a laticínios orgânicos certificados ou a alternativas artesanais simples como queijo cottage ou ricota fresca de produtores locais, ou pastas vegetais caseiras feitas com castanhas.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 2, 2022)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 2, 2022)",
       "Anvisa (IN 51/2019)",
       "Guia Alimentar para a População Brasileira"
     ],
@@ -2506,7 +2506,7 @@ export const ALIMENTOS: Alimento[] = [
         "Varie com patês caseiros feitos de ricota com ervas frescas bem higienizadas."
       ],
       "observacao": "Resíduos lipofílicos têm afinidade química com a gordura do leite, concentrando-se em produtos cremosos.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 2) e Anvisa."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 2) e Anvisa."
     }
   },
   {
@@ -2525,7 +2525,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Nas amostras analisadas na cartilha (Vol. 2), não foram encontrados resíduos de defensivos agrícolas no lote avaliado. Recomenda-se atenção à leitura dos rótulos para privilegiar iogurtes naturais sem aditivos cosméticos.",
     "cuidados_texto": "Priorize o iogurte natural integral com apenas dois ingredientes: leite e fermento lácteo. Caso deseje adoçar, adicione frutas frescas picadas (banana, morango limpo) ou um fio de mel puro.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 2, 2022)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 2, 2022)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2537,7 +2537,7 @@ export const ALIMENTOS: Alimento[] = [
         "Incorpore frutas frescas higienizadas sob água corrente para saborizar naturalmente."
       ],
       "observacao": "Iogurtes naturais sem aditivos químicos mantêm probióticos ativos sem sobrecarregar o organismo com conservantes.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 2) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 2) e Guia Alimentar."
     }
   },
   {
@@ -2562,7 +2562,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 3), amostras de macarrão instantâneo apresentaram resíduos de três defensivos agrícolas simultâneos além do sinergista butóxido de piperonila, reforçando o trigo como ingrediente de alta vulnerabilidade.",
     "cuidados_texto": "Substitua o macarrão instantâneo por massas secas tradicionais (espaguete, penne) preparadas com molho caseiro de tomates frescos, azeite e ervas naturais, cozidas em poucos minutos.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 3, 2024)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 3, 2024)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2574,7 +2574,7 @@ export const ALIMENTOS: Alimento[] = [
         "Enriqueça o prato com legumes frescos fatiados (abobrinha, cenoura, brócolis) bem lavados."
       ],
       "observacao": "O sachê de tempero em pó industrial concentra aditivos e sódio que sobrecarregam a função renal e cardiovascular.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 3) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 3) e Guia Alimentar."
     }
   },
   {
@@ -2602,7 +2602,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 3), amostras de biscoito maisena apresentaram o maior número de resíduos da edição, incluindo inseticidas piretróides, organofosforados e herbicidas em uma mesma amostra de produto.",
     "cuidados_texto": "Evite introduzir biscoitos industriais na alimentação de crianças pequenas. Dê preferência a frutas in natura amassadas, mingau de aveia caseiro preparado com leite ou água, ou bolinhos caseiros sem açúcar adicionado.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 3, 2024)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 3, 2024)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2614,7 +2614,7 @@ export const ALIMENTOS: Alimento[] = [
         "Prepare receitas caseiras assadas usando farinha de aveia ou farinhas orgânicas certificadas."
       ],
       "observacao": "A infância inicial é um período de extrema vulnerabilidade aos efeitos hormonais e neurológicos de defensivos agrícolas.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 3) e Ministério da Saúde."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 3) e Ministério da Saúde."
     }
   },
   {
@@ -2634,10 +2634,10 @@ export const ALIMENTOS: Alimento[] = [
       "Carnes processadas estão associadas a riscos aumentados de doenças crônicas pelo IARC/OMS"
     ],
     "imagem_url": "https://images.unsplash.com/photo-1524438418049-ab2acb7aa48f?auto=format&fit=crop&w=800&q=80",
-    "saiba_mais": "Na análise apresentada pela cartilha (Vol. 3), foi detectado resíduo de glifosato e seu metabólito AMPA em amostra de presunto cozido, reforçando dados de transferência do defensivo na cadeia da suinocultura.",
+    "saiba_mais": "Na análise apresentada pela cartilha (Vol. 3), foi detectado resíduo de glifosato e seu derivado AMPA (substância gerada na decomposição do pesticida) em amostra de presunto cozido, reforçando dados de transferência do defensivo na cadeia da suinocultura.",
     "cuidados_texto": "Reduza o consumo de frios e embutidos. Substitua por carnes frescas cozidas ou grelhadas desfiadas, queijos brancos frescos ou opções vegetais como tofu e pastas de feijão ou grão-de-bico.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 3, 2024)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 3, 2024)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2649,7 +2649,7 @@ export const ALIMENTOS: Alimento[] = [
         "Priorize proteínas frescas de produtores com boas práticas de manejo agropecuário."
       ],
       "observacao": "O consumo reduzido de carnes curadas é uma das principais recomendações da OMS para prevenção de neoplasias.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 3) e OMS."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 3) e OMS."
     }
   },
   {
@@ -2675,7 +2675,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 3), foram encontrados resíduos de até 3 defensivos agrícolas e do sinergista butóxido de piperonila em amostras de bolinhos prontos comercializados para merenda escolar.",
     "cuidados_texto": "Estimule a culinária caseira preparando bolos simples em família, utilizando farinha integral, frutas frescas (banana, maçã) e cacau em pó puro sem necessidade de conservantes químicos e gorduras trans.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 3, 2024)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 3, 2024)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2687,7 +2687,7 @@ export const ALIMENTOS: Alimento[] = [
         "Utilize frutas maduras para adoçar naturalmente a receita, reduzindo o uso de açúcar refinado."
       ],
       "observacao": "Bolos feitos em casa têm validade menor, justamente pela ausência de aditivos conservantes artificiais.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 3) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 3) e Guia Alimentar."
     }
   },
   {
@@ -2713,7 +2713,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 3), produtos inovadores à base de plantas foram avaliados, e amostras de hambúrguer vegetal apresentaram resíduos de até 3 defensivos diferentes, demonstrando que a rotulagem plant-based industrial não é isenta de contaminantes químicos.",
     "cuidados_texto": "Para dietas vegetarianas, o Guia Alimentar preconiza o consumo de leguminosas in natura (feijões variados, lentilhas, grão-de-bico) preparadas na cozinha em vez de análogos cárneos industriais ultraprocessados.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 3, 2024)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 3, 2024)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2725,7 +2725,7 @@ export const ALIMENTOS: Alimento[] = [
         "Caso compre opções industriais, procure marcas que declarem grãos de cultivo 100% orgânico."
       ],
       "observacao": "A alimentação vegetariana equilibrada é baseada em comida de verdade e grãos inteiros, e não em pós e isolados proteicos ultraprocessados.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 3) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 3) e Guia Alimentar."
     }
   },
   {
@@ -2751,7 +2751,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na análise apresentada pela cartilha (Vol. 3), todas as amostras de empanados plant-based testadas apresentaram resíduos de defensivos agrícolas, evidenciando que o uso de commodities agrícolas industriais transfere defensivos agrícolas para os produtos finais.",
     "cuidados_texto": "Prepare petiscos vegetais caseiros utilizando ingredientes frescos, como falafel assado de grão-de-bico com salsinha e coentro, ou bolinhos de mandioca e lentilha temperados com especiarias naturais.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 3, 2024)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 3, 2024)",
       "Guia Alimentar para a População Brasileira"
     ],
     "limpeza": {
@@ -2763,7 +2763,7 @@ export const ALIMENTOS: Alimento[] = [
         "Ao buscar praticidade, compre de cooperativas de pequenos agricultores e cozinhas comunitárias agroecológicas."
       ],
       "observacao": "O cozimento de preparações caseiras com grãos in natura permite garantir a qualidade e a ausência de aditivos industriais.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 3) e Guia Alimentar."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 3) e Guia Alimentar."
     }
   },
   {
@@ -2786,7 +2786,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Na repetição de testes apresentada na cartilha (Vol. 3), amostra de bebida láctea apresentou resíduo de fipronilsulfona. O defensivo é aplicado na agricultura e no controle de pragas em rebanhos, sendo carreado para o leite utilizado na indústria.",
     "cuidados_texto": "Evite achocolatados e bebidas lácteas açucaradas. Prefira leite fresco ou pasteurizado batido com cacau em pó 100% puro e frutas frescas maduras (banana, morango higienizado).",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 3, 2024)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 3, 2024)",
       "Ibama",
       "Guia Alimentar para a População Brasileira"
     ],
@@ -2799,7 +2799,7 @@ export const ALIMENTOS: Alimento[] = [
         "Busque leites com certificação orgânica para garantir animais criados em pasto sem carrapaticidas sintéticos."
       ],
       "observacao": "Bebidas lácteas contêm soro de leite e espessantes, tendo composição diferente do leite pasteurizado puro.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 3) e Ibama."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 3) e Ibama."
     }
   },
   {
@@ -2819,7 +2819,7 @@ export const ALIMENTOS: Alimento[] = [
     "saiba_mais": "Nas amostras testadas pelo Idec (Vol. 3), não foram identificados resíduos de defensivos agrícolas no lote analisado. Apesar do resultado favorável quanto a defensivos agrícolas na amostra, o produto continua sendo um ultraprocessado com alta concentração de aditivos cosméticos e açúcar.",
     "cuidados_texto": "Para lanches infantis, elabore cremes naturais de frutas caseiros amassando banana madura ou abacate com morangos frescos bem lavados e higienizados sob água corrente.",
     "fontes": [
-      "Idec - Tem Veneno Nesse Pacote (Volume 3, 2024)",
+      "Idec - Pesquisa sobre Defensivos em Alimentos (Volume 3, 2024)",
       "Guia Alimentar para Crianças Brasileiras Menores de 2 Anos (Ministério da Saúde)"
     ],
     "limpeza": {
@@ -2831,7 +2831,7 @@ export const ALIMENTOS: Alimento[] = [
         "Incentive o paladar da criança a apreciar o sabor real das frutas frescas sem aditivos."
       ],
       "observacao": "A recomendação do Ministério da Saúde é não oferecer alimentos com adição de açúcares nos primeiros dois anos de vida.",
-      "fonte": "Idec - Tem Veneno Nesse Pacote (Vol. 3) e Ministério da Saúde."
+      "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 3) e Ministério da Saúde."
     }
   }
 ];

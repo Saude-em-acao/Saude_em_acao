@@ -34,7 +34,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
               </div>
 
               <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-foreground leading-[1.12] uppercase">
-                DEFENSORES AGRÍCOLAS:{" "}
+                DEFENSIVOS AGRÍCOLAS:{" "}
                 <span className="text-primary italic">O QUE CHEGA À SUA MESA?</span>
               </h1>
 
@@ -114,41 +114,41 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="rounded-3xl border border-border bg-card p-6 text-center hover:border-primary/50 transition shadow-sm">
-              <div className="text-3xl font-display font-extrabold text-[var(--tomato)]">
+              <div className="text-3xl sm:text-4xl font-display font-extrabold text-[var(--tomato)]">
                 +700 mil
               </div>
-              <div className="mt-1 text-sm font-bold text-foreground">Toneladas / ano</div>
-              <p className="mt-2 text-xs text-muted-foreground">
+              <div className="mt-1 text-base font-bold text-foreground">Toneladas / ano</div>
+              <p className="mt-2 text-sm text-foreground/80 leading-relaxed">
                 Volume anual de defensivos aplicados nas lavouras do país, consolidando o Brasil na liderança global.
               </p>
             </div>
 
             <div className="rounded-3xl border border-border bg-card p-6 text-center hover:border-primary/50 transition shadow-sm">
-              <div className="text-3xl font-display font-extrabold text-[var(--sun)]">
+              <div className="text-3xl sm:text-4xl font-display font-extrabold text-[var(--sun)]">
                 1 em cada 4
               </div>
-              <div className="mt-1 text-sm font-bold text-foreground">Amostras irregulares</div>
-              <p className="mt-2 text-xs text-muted-foreground">
+              <div className="mt-1 text-base font-bold text-foreground">Amostras irregulares</div>
+              <p className="mt-2 text-sm text-foreground/80 leading-relaxed">
                 Cerca de 25% dos vegetais avaliados pela Anvisa contêm resíduos acima do limite ou substâncias não autorizadas.
               </p>
             </div>
 
             <div className="rounded-3xl border border-border bg-card p-6 text-center hover:border-primary/50 transition shadow-sm">
-              <div className="text-3xl font-display font-extrabold text-[var(--leaf)]">
+              <div className="text-3xl sm:text-4xl font-display font-extrabold text-[var(--leaf)]">
                 58 Alimentos
               </div>
-              <div className="mt-1 text-sm font-bold text-foreground">Guia Detalhado</div>
-              <p className="mt-2 text-xs text-muted-foreground">
+              <div className="mt-1 text-base font-bold text-foreground">Guia Detalhado</div>
+              <p className="mt-2 text-sm text-foreground/80 leading-relaxed">
                 Mapeamento de frutas, verduras e grãos com seus riscos e orientações precisas de limpeza.
               </p>
             </div>
 
             <div className="rounded-3xl border border-border bg-card p-6 text-center hover:border-primary/50 transition shadow-sm">
-              <div className="text-3xl font-display font-extrabold text-primary">
+              <div className="text-3xl sm:text-4xl font-display font-extrabold text-primary">
                 ODS 3
               </div>
-              <div className="mt-1 text-sm font-bold text-foreground">Meta da ONU</div>
-              <p className="mt-2 text-xs text-muted-foreground">
+              <div className="mt-1 text-base font-bold text-foreground">Meta da ONU</div>
+              <p className="mt-2 text-sm text-foreground/80 leading-relaxed">
                 Assegurar uma vida saudável e promover o bem-estar para todas as idades, combatendo contaminações.
               </p>
             </div>
@@ -240,33 +240,33 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
                 </div>
 
                 {/* Concise Educational Highlights */}
-                <div className="lg:col-span-7 space-y-3">
-                  <div className="p-3.5 rounded-xl border border-border bg-secondary/20 flex items-start gap-3">
-                    <span className="text-lg">🌾</span>
+                <div className="lg:col-span-7 space-y-3.5">
+                  <div className="p-4 rounded-2xl border border-border bg-secondary/20 flex items-start gap-3">
+                    <span className="text-xl">🌾</span>
                     <div>
-                      <h3 className="text-sm font-bold text-foreground">O que é e onde atua</h3>
-                      <p className="text-xs text-foreground/80 leading-relaxed mt-0.5">
-                        Herbicida usado contra plantas daninhas em lavouras de <strong>soja, milho e trigo</strong>. Esses grãos abastecem a indústria de farinhas e a ração de animais, permitindo que resíduos cheguem aos produtos finais.
+                      <h3 className="text-base font-bold text-foreground">O que é e onde atua</h3>
+                      <p className="text-sm text-foreground/85 leading-relaxed mt-1">
+                        É um pesticida usado para controlar o mato em plantações de <strong>soja, milho e trigo</strong>. Esses grãos vão para a fabricação de farinhas, biscoitos, pães e ração para animais, fazendo com que resíduos químicos cheguem diretamente à comida da nossa mesa.
                       </p>
                     </div>
                   </div>
 
-                  <div className="p-3.5 rounded-xl border border-border bg-secondary/20 flex items-start gap-3">
-                    <span className="text-lg">🧪</span>
+                  <div className="p-4 rounded-2xl border border-border bg-secondary/20 flex items-start gap-3">
+                    <span className="text-xl">🧪</span>
                     <div>
-                      <h3 className="text-sm font-bold text-foreground">Presença nas amostras testadas</h3>
-                      <p className="text-xs text-foreground/80 leading-relaxed mt-0.5">
-                        Foi o defensivo mais frequente nos 3 volumes do <em>“Tem Veneno Nesse Pacote”</em> (junto ao seu metabólito <strong>AMPA</strong>): detectado em <strong>51,8%</strong> das amostras do Vol. 1, em <strong>9 de 24</strong> no Vol. 2 e em <strong>7 de 24</strong> no Vol. 3.
+                      <h3 className="text-base font-bold text-foreground">Presença nas amostras testadas</h3>
+                      <p className="text-sm text-foreground/85 leading-relaxed mt-1">
+                        Foi o produto mais encontrado nas pesquisas do IDEC sobre defensivos agrícolas (junto à sua substância derivada <strong>AMPA</strong>, que surge quando o pesticida começa a se decompor): esteve presente em <strong>51,8%</strong> das amostras do 1º volume, em <strong>9 de 24</strong> no 2º e em <strong>7 de 24</strong> no 3º volume.
                       </p>
                     </div>
                   </div>
 
-                  <div className="p-3.5 rounded-xl border border-border bg-secondary/20 flex items-start gap-3">
-                    <span className="text-lg">⚕️</span>
+                  <div className="p-4 rounded-2xl border border-border bg-secondary/20 flex items-start gap-3">
+                    <span className="text-xl">⚕️</span>
                     <div>
-                      <h3 className="text-sm font-bold text-foreground">Classificação da OMS</h3>
-                      <p className="text-xs text-foreground/80 leading-relaxed mt-0.5">
-                        A IARC/OMS classifica o glifosato como <em>“provavelmente carcinogênico para humanos”</em> (Grupo 2A), gerando debates científicos sobre os impactos cumulativos a longo prazo.
+                      <h3 className="text-base font-bold text-foreground">Classificação da OMS</h3>
+                      <p className="text-sm text-foreground/85 leading-relaxed mt-1">
+                        A Organização Mundial da Saúde (OMS/IARC) classifica o glifosato como <em>“provável causador de câncer em humanos”</em>, o que acende um alerta sobre os perigos de comer pequenas quantidades dessa substância todos os dias.
                       </p>
                     </div>
                   </div>
@@ -285,7 +285,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
               <div className="text-[11px] text-muted-foreground flex items-center gap-1.5 pt-1">
                 <FileText className="w-3.5 h-3.5 shrink-0" />
                 <span>
-                  <strong>Fonte:</strong> Pesquisa <em>“Tem Veneno Nesse Pacote”</em> (Volumes 1, 2 e 3) — IDEC e Monografia IARC/OMS.
+                  <strong>Fonte:</strong> Pesquisas do IDEC sobre defensivos agrícolas em ultraprocessados (Volumes 1, 2 e 3) e Monografia IARC/OMS.
                 </span>
               </div>
             </div>
@@ -335,33 +335,33 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
                 </div>
 
                 {/* Concise Educational Highlights */}
-                <div className="lg:col-span-7 space-y-3">
-                  <div className="p-3.5 rounded-xl border border-border bg-secondary/20">
-                    <h3 className="text-sm font-bold text-foreground flex items-center gap-2">
+                <div className="lg:col-span-7 space-y-3.5">
+                  <div className="p-4 rounded-2xl border border-border bg-secondary/20">
+                    <h3 className="text-base font-bold text-foreground flex items-center gap-2">
                       <span>🎭</span> O poder da conexão lúdica
                     </h3>
-                    <p className="text-xs text-foreground/80 leading-relaxed mt-1">
-                      Mascotes, personagens infantis e cores vibrantes são recursos para criar laços emocionais com as crianças em bolinhos, biscoitos e bebidas açucaradas, impulsionando a <em>pressão consumista</em> nas compras da família.
+                    <p className="text-sm text-foreground/85 leading-relaxed mt-1">
+                      Mascotes, desenhos animados e cores chamativas criam laços de carinho com as crianças em bolinhos, salgadinhos e biscoitos recheados, incentivando pedidos insistentes na hora das compras da família.
                     </p>
                   </div>
 
-                  <div className="p-3.5 rounded-xl border border-border bg-secondary/20">
-                    <h3 className="text-sm font-bold text-foreground flex items-center gap-2">
+                  <div className="p-4 rounded-2xl border border-border bg-secondary/20">
+                    <h3 className="text-base font-bold text-foreground flex items-center gap-2">
                       <span>👶</span> O que recomenda o Guia Alimentar
                     </h3>
-                    <p className="text-xs text-foreground/80 leading-relaxed mt-1">
-                      Crianças não devem consumir ultraprocessados (especialmente até os 2 anos), devido aos excessos de açúcar, gordura e sódio. Além disso, as análises do IDEC detectaram resíduos químicos em amostras voltadas a esse público.
+                    <p className="text-sm text-foreground/85 leading-relaxed mt-1">
+                      Crianças devem evitar ultraprocessados (especialmente antes dos 2 anos), pois contêm excesso de açúcar, gordura e sal. Para piorar, as pesquisas encontraram resíduos de pesticidas em produtos muito consumidos pela garotada.
                     </p>
                   </div>
 
-                  <div className="p-3.5 rounded-xl border border-primary/20 bg-primary/5">
-                    <h3 className="text-sm font-bold text-primary flex items-center gap-2">
+                  <div className="p-4 rounded-2xl border border-primary/20 bg-primary/5">
+                    <h3 className="text-base font-bold text-primary flex items-center gap-2">
                       <CheckCircle2 className="w-4 h-4 text-primary shrink-0" /> Como praticar o olhar crítico
                     </h3>
-                    <ul className="mt-1.5 space-y-1 text-xs text-foreground/80">
-                      <li>• <strong>Vire o pacote:</strong> A composição verdadeira está nos ingredientes no verso, não no mascote da frente.</li>
-                      <li>• <strong>Cuidado com slogans:</strong> Avisos como <em>“rico em vitaminas”</em> costumam ocultar formulações ultraprocessadas.</li>
-                      <li>• <strong>Comida de verdade:</strong> Frutas frescas e lanches caseiros alimentam com carinho e sem apelos comerciais.</li>
+                    <ul className="mt-2 space-y-1.5 text-sm text-foreground/85 leading-relaxed">
+                      <li>• <strong>Vire o pacote:</strong> A verdade do produto está na lista de ingredientes atrás, e não no desenho bonito da frente.</li>
+                      <li>• <strong>Cuidado com frases como “rico em vitaminas”:</strong> Quase sempre servem para disfarçar alimentos cheios de aditivos e pesticidas.</li>
+                      <li>• <strong>Prefira comida de verdade:</strong> Frutas frescas e lanches feitos em casa protegem a saúde dos pequenos de verdade.</li>
                     </ul>
                   </div>
                 </div>
@@ -371,7 +371,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
               <div className="text-[11px] text-muted-foreground flex items-center gap-1.5 pt-1">
                 <FileText className="w-3.5 h-3.5 shrink-0" />
                 <span>
-                  <strong>Fonte:</strong> Cartilhas <em>“Tem Veneno Nesse Pacote”</em> (Vols. 2 e 3) — IDEC, Observatório de Publicidade de Alimentos e Guia Alimentar (Ministério da Saúde).
+                  <strong>Fonte:</strong> Cartilhas do IDEC sobre defensivos em ultraprocessados (Vols. 2 e 3), Observatório de Publicidade de Alimentos e Guia Alimentar (Ministério da Saúde).
                 </span>
               </div>
             </div>
@@ -397,50 +397,50 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             <div className="rounded-3xl border border-border/80 bg-card p-6 shadow-xs hover:border-primary/40 transition">
-              <div className="text-3xl mb-3">🎗️</div>
-              <h3 className="font-display text-lg font-bold text-foreground">Câncer e Tumores</h3>
-              <p className="mt-2 text-xs text-foreground/75 leading-relaxed">
-                O INCA alerta que substâncias como glifosato, malationa e mancozebe possuem potencial carcinogênico associado a linfomas, leucemias e tumores no estômago e mama.
+              <div className="text-4xl mb-3">🎗️</div>
+              <h3 className="font-display text-xl font-bold text-foreground">Câncer e Tumores</h3>
+              <p className="mt-2 text-sm text-foreground/85 leading-relaxed">
+                O Instituto Nacional de Câncer (INCA) alerta que o contato e consumo frequente de certos pesticidas agrícolas aumentam as chances de tumores na mama, estômago e no sangue (leucemias e linfomas).
               </p>
             </div>
 
             <div className="rounded-3xl border border-border/80 bg-card p-6 shadow-xs hover:border-primary/40 transition">
-              <div className="text-3xl mb-3">🧬</div>
-              <h3 className="font-display text-lg font-bold text-foreground">Desregulação Hormonal</h3>
-              <p className="mt-2 text-xs text-foreground/75 leading-relaxed">
-                Desreguladores endócrinos interferem na tireoide, reprodução e metabolismo, provocando puberdade precoce, infertilidade e distúrbios metabólicos crônicos.
+              <div className="text-4xl mb-3">🧬</div>
+              <h3 className="font-display text-xl font-bold text-foreground">Hormônios Desregulados</h3>
+              <p className="mt-2 text-sm text-foreground/85 leading-relaxed">
+                Vários químicos agem como falsos hormônios no nosso corpo. Isso pode desregular a tireoide, causar puberdade precoce nas crianças e dificultar a gravidez no futuro.
               </p>
             </div>
 
             <div className="rounded-3xl border border-border/80 bg-card p-6 shadow-xs hover:border-primary/40 transition">
-              <div className="text-3xl mb-3">🧠</div>
-              <h3 className="font-display text-lg font-bold text-foreground">Danos Neurológicos</h3>
-              <p className="mt-2 text-xs text-foreground/75 leading-relaxed">
-                Organofosforados e carbamatos atacam neurotransmissores, aumentando o risco de déficits cognitivos, neuropatias, Parkinson precoce e ansiedade severa.
+              <div className="text-4xl mb-3">🧠</div>
+              <h3 className="font-display text-xl font-bold text-foreground">Cérebro e Nervos</h3>
+              <p className="mt-2 text-sm text-foreground/85 leading-relaxed">
+                Muitos pesticidas foram feitos para paralisar o sistema nervoso dos insetos e também agridem nossos neurônios. Podem provocar perda de memória, tremores e crises de ansiedade.
               </p>
             </div>
 
             <div className="rounded-3xl border border-border/80 bg-card p-6 shadow-xs hover:border-primary/40 transition">
-              <div className="text-3xl mb-3">🫀</div>
-              <h3 className="font-display text-lg font-bold text-foreground">Fígado e Rins</h3>
-              <p className="mt-2 text-xs text-foreground/75 leading-relaxed">
-                Os órgãos responsáveis pela filtragem sofrem sobrecarga contínua, levando a esteatose hepática, insuficiência renal progressiva e inflamações crônicas.
+              <div className="text-4xl mb-3">🫀</div>
+              <h3 className="font-display text-xl font-bold text-foreground">Fígado e Rins Sobrecarregados</h3>
+              <p className="mt-2 text-sm text-foreground/85 leading-relaxed">
+                São os dois grandes filtros do nosso organismo. Quando precisam limpar toxinas todos os dias, sofrem com inflamações, acúmulo de gordura e perda lenta de sua função.
               </p>
             </div>
 
             <div className="rounded-3xl border border-border/80 bg-card p-6 shadow-xs hover:border-primary/40 transition">
-              <div className="text-3xl mb-3">👶</div>
-              <h3 className="font-display text-lg font-bold text-foreground">Riscos na Infância e Gestação</h3>
-              <p className="mt-2 text-xs text-foreground/75 leading-relaxed">
-                Crianças possuem barreiras biológicas imaturas e maior taxa metabólica por peso, sendo extremamente vulneráveis a malformações e atrasos do neurodesenvolvimento.
+              <div className="text-4xl mb-3">👶</div>
+              <h3 className="font-display text-xl font-bold text-foreground">Riscos em Crianças e Gestantes</h3>
+              <p className="mt-2 text-sm text-foreground/85 leading-relaxed">
+                Bebês e crianças têm órgãos em formação e absorvem químicos com muito mais facilidade. Isso aumenta o risco de alergias, atrasos no aprendizado e problemas no desenvolvimento.
               </p>
             </div>
 
             <div className="rounded-3xl border border-border/80 bg-card p-6 shadow-xs hover:border-primary/40 transition">
-              <div className="text-3xl mb-3">⏳</div>
-              <h3 className="font-display text-lg font-bold text-foreground">Efeito Coquetel Cumulativo</h3>
-              <p className="mt-2 text-xs text-foreground/75 leading-relaxed">
-                Uma única fruta pode conter resíduos de 3 a 5 químicos distintos. A ciência ainda investiga a interação tóxica simultânea desses múltiplos compostos no corpo.
+              <div className="text-4xl mb-3">⏳</div>
+              <h3 className="font-display text-xl font-bold text-foreground">Mistura de Pesticidas (Coquetel)</h3>
+              <p className="mt-2 text-sm text-foreground/85 leading-relaxed">
+                Uma única maçã ou tomate pode conter 3 a 5 pesticidas diferentes juntos. O corpo precisa lidar com essa mistura ao mesmo tempo, somando os efeitos tóxicos a longo prazo.
               </p>
             </div>
           </div>
@@ -455,8 +455,8 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
             <h3 className="text-xl sm:text-2xl font-display font-bold text-foreground">
               Lavar apenas com água não resolve tudo
             </h3>
-            <p className="text-sm text-foreground/80 max-w-2xl mx-auto leading-relaxed">
-              Muitos defensores agrícolas modernos são sistêmicos: circulam pela seiva da planta e penetram na polpa, não ficando apenas na casca. Por isso, alternar os tipos de alimentos, preferir feiras agroecológicas e descascar os de maior risco são estratégias complementares essenciais.
+            <p className="text-sm sm:text-base text-foreground/85 max-w-2xl mx-auto leading-relaxed">
+              Lavar em água corrente ajuda a tirar a poeira e parte dos químicos da casca, mas muitos pesticidas entram na seiva da planta e vão parar dentro da polpa. Como não dá para lavar por dentro, o segredo é: descascar quando a receita permitir, variar as frutas e verduras no prato e priorizar opções orgânicas ou de feiras da sua região!
             </p>
             <div className="pt-2">
               <button
@@ -493,13 +493,13 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
               className="rounded-3xl border border-border/80 bg-card p-6 hover:border-primary hover:shadow-md transition cursor-pointer flex flex-col justify-between"
             >
               <div>
-                <span className="text-3xl">🥦</span>
-                <h3 className="mt-3 font-display text-xl font-bold text-primary">Tabela de Alimentos</h3>
-                <p className="mt-1 text-xs text-foreground/75">
+                <span className="text-4xl">🥦</span>
+                <h3 className="mt-3 font-display text-xl sm:text-2xl font-bold text-primary">Tabela de Alimentos</h3>
+                <p className="mt-2 text-sm text-foreground/80 leading-relaxed">
                   Consulte 58 itens com fotos reais, níveis de atenção, substâncias químicas e instruções passo a passo.
                 </p>
               </div>
-              <span className="mt-4 inline-flex items-center gap-1 text-xs font-bold text-primary">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-bold text-primary">
                 Explorar tabela →
               </span>
             </div>
@@ -509,13 +509,13 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
               className="rounded-3xl border border-border/80 bg-card p-6 hover:border-primary hover:shadow-md transition cursor-pointer flex flex-col justify-between"
             >
               <div>
-                <span className="text-3xl">📚</span>
-                <h3 className="mt-3 font-display text-xl font-bold text-primary">Biblioteca de Evidências</h3>
-                <p className="mt-1 text-xs text-foreground/75">
+                <span className="text-4xl">📚</span>
+                <h3 className="mt-3 font-display text-xl sm:text-2xl font-bold text-primary">Biblioteca de Evidências</h3>
+                <p className="mt-2 text-sm text-foreground/80 leading-relaxed">
                   28 reportagens investigativas, artigos da Fiocruz e vídeos jornalísticos sobre defensivos agrícolas e alimentação.
                 </p>
               </div>
-              <span className="mt-4 inline-flex items-center gap-1 text-xs font-bold text-primary">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-bold text-primary">
                 Acessar biblioteca →
               </span>
             </div>
@@ -525,13 +525,13 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
               className="rounded-3xl border border-border/80 bg-card p-6 hover:border-primary hover:shadow-md transition cursor-pointer flex flex-col justify-between"
             >
               <div>
-                <span className="text-3xl">🎮</span>
-                <h3 className="mt-3 font-display text-xl font-bold text-primary">Área Kids Educativa</h3>
-                <p className="mt-1 text-xs text-foreground/75">
+                <span className="text-4xl">🎮</span>
+                <h3 className="mt-3 font-display text-xl sm:text-2xl font-bold text-primary">Área Kids Educativa</h3>
+                <p className="mt-2 text-sm text-foreground/80 leading-relaxed">
                   Jogos da memória, palavras cruzadas, forca e o jogo dos Guardiões do Prato para crianças.
                 </p>
               </div>
-              <span className="mt-4 inline-flex items-center gap-1 text-xs font-bold text-primary">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-bold text-primary">
                 Jogar com a turma →
               </span>
             </div>

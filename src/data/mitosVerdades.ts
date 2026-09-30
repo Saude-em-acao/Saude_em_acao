@@ -16,7 +16,7 @@ export const MITOS_VERDADES: MitoVerdadeItem[] = [
     afirmacao: "Os defensivos agrícolas não fazem mal à saúde",
     tipo: "MITO",
     explicacao:
-      "De acordo com a ONU, os defensivos agrícolas causam cerca de 200 mil mortes por ano no mundo por intoxicação aguda. No Brasil, em média, sete pessoas são intoxicadas por dia. De 2007 a 2017, 1.824 pessoas morreram devido ao uso de defensivos agrícolas e outras 718 tiveram sequelas segundo dados do Ministério da Saúde (estimando-se que apenas 1 em cada 50 casos seja notificado). Além disso, os testes laboratoriais em geral não consideram a exposição simultânea a múltiplos princípios ativos e os efeitos de longo prazo.",
+      "É um grande mito. Dados da ONU mostram que esses pesticidas causam cerca de 200 mil mortes por ano no mundo por intoxicação aguda. No Brasil, em média, 7 pessoas são intoxicadas todos os dias segundo o Ministério da Saúde. Além disso, a maioria dos testes não avalia o perigo de ingerir múltiplos químicos misturados ao longo dos anos.",
     fonte: "IDEC / ONU / Ministério da Saúde"
   },
   {
@@ -26,7 +26,7 @@ export const MITOS_VERDADES: MitoVerdadeItem[] = [
     afirmacao: "Os defensivos agrícolas podem se acumular nas cascas das frutas e hortaliças",
     tipo: "VERDADE",
     explicacao:
-      "Devido à sua composição química, os defensivos agrícolas podem se acumular tanto nas cascas quanto no interior dos alimentos e nos tecidos de seres vivos. Essas substâncias percorrem toda a cadeia alimentar: contaminam plantas e insetos que depois servem de alimento para animais e humanos. Estudos científicos no Brasil já detectaram inclusive a contaminação de leite materno por múltiplos defensivos agrícolas em regiões agrícolas do país.",
+      "É verdade! Esses químicos grudam na casca e muitos penetram até a polpa do alimento. Eles contaminam plantas e animais que comemos. No Brasil, pesquisas já encontraram restos de defensivos agrícolas até no leite materno de mães em regiões de lavoura.",
     fonte: "IDEC / Pesquisas de Saúde Coletiva"
   },
   {
@@ -36,8 +36,8 @@ export const MITOS_VERDADES: MitoVerdadeItem[] = [
     afirmacao: "É só lavar bem os alimentos que os defensivos agrícolas são removidos",
     tipo: "MITO",
     explicacao:
-      "Segundo a Anvisa, a lavagem não retira completamente os resíduos de defensivos agrícolas. Muitos compostos químicos possuem ação sistêmica e são absorvidos pelas plantas através dos poros, instalando-se no interior da polpa. Além disso, análises da Anvisa e de entidades de pesquisa revelam a presença de resíduos em cerca de 60% das amostras e o uso de dezenas de defensivos combinados em uma mesma cultura (como amostras de pimentão com dezenas de princípios ativos diferentes).",
-    fonte: "IDEC / Anvisa / Pesquisas Científicas"
+      "Lavar em água corrente ajuda a tirar a sujeira e parte do pesticida que fica por fora, mas não resolve tudo. A Anvisa alerta que muitos produtos entram na seiva da planta e vão parar dentro da polpa. Ou seja: não tem como lavar o que já está dentro do alimento.",
+    fonte: "IDEC / Anvisa"
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ export const MITOS_VERDADES: MitoVerdadeItem[] = [
     afirmacao: "Os defensivos agrícolas contaminam o meio ambiente",
     tipo: "VERDADE",
     explicacao:
-      "A utilização de defensivos agrícolas é responsável pela contaminação de recursos naturais porque muitos compostos dificilmente se dissolvem em água e penetram facilmente nos tecidos vivos. Pesquisa da Embrapa evidenciou contaminação do solo e da água nas cinco regiões do Brasil. O Dossiê da Abrasco também reúne comprovações científicas de defensivos agrícolas em água para consumo humano, poços subterrâneos, sedimentos de lagoas e até no ar e na chuva coletados em pátios escolares.",
+      "É verdade. O pesticida pulverizado não fica só na lavoura. O vento e a chuva levam esses produtos para os rios, poços de água, para a terra e até para o ar que as crianças respiram perto de escolas rurais, como comprovou a Embrapa e a Fiocruz.",
     fonte: "IDEC / Embrapa / Dossiê Abrasco"
   },
   {
@@ -56,7 +56,7 @@ export const MITOS_VERDADES: MitoVerdadeItem[] = [
     afirmacao: "Alimentos transgênicos têm menos defensivos agrícolas",
     tipo: "MITO",
     explicacao:
-      "Uma das principais promessas no início do cultivo de transgênicos era a redução de defensivos pela resistência das plantas a pragas. Na prática, aconteceu o oposto: estudo de monitoramento no Brasil entre 2000 e 2012 mostrou um aumento de 1,6 vezes no uso de defensivos agrícolas em plantações transgênicas. As lavouras de soja transgênica, por exemplo, triplicaram o consumo de químicos agrícolas sem aumento proporcional da produtividade.",
+      "Prometiam que as plantas transgênicas precisariam de menos pesticidas, mas aconteceu o contrário! Como a planta foi modificada para aguentar doses maiores de agroquímicos sem morrer, as plantações de soja transgênica no Brasil triplicaram o uso de químicos.",
     fonte: "IDEC / Estudos de Monitoramento de OGMs no Brasil"
   },
   {
@@ -66,7 +66,7 @@ export const MITOS_VERDADES: MitoVerdadeItem[] = [
     afirmacao: "Não é possível ter grandes plantações sem utilizar defensivos agrícolas",
     tipo: "MITO",
     explicacao:
-      "Segundo a Federação Internacional de Movimentos de Agricultura Orgânica (IFOAM), a área dedicada a orgânicos no planeta ultrapassa 57,8 milhões de hectares. No Brasil, o cultivo no Rio Grande do Sul é o maior produtor de arroz orgânico da América Latina, com mais de 27 mil toneladas colhidas por safra e exportação para EUA, Alemanha, Espanha e outros países. Sistemas orgânicos e agroecológicos mantêm o solo saudável e empregam métodos biológicos eficazes em grande escala.",
+      "É perfeitamente possível produzir em grande escala sem agroquímicos. O Brasil é o maior produtor de arroz orgânico de toda a América Latina (no Rio Grande do Sul), colhendo mais de 27 mil toneladas por safra usando apenas técnicas naturais e biológicas.",
     fonte: "IDEC / IFOAM / Pesquisas de Agroecologia"
   },
   {
@@ -76,7 +76,7 @@ export const MITOS_VERDADES: MitoVerdadeItem[] = [
     afirmacao: "Os defensivos agrícolas não são utilizados na agricultura orgânica",
     tipo: "VERDADE",
     explicacao:
-      "Alimentos orgânicos são produzidos sem defensivos agrícolas sintéticos, sem fertilizantes químicos industriais e sem sementes transgênicas. Esse modelo de cultivo respeita os ciclos naturais das plantas e do solo, gerando alimentos com mais nutrientes e fibras. Além disso, a FAO analisou centenas de estudos e concluiu que sistemas orgânicos preservam a biodiversidade, favorecendo a variedade de espécies e o equilíbrio ambiental.",
+      "É verdade! A comida orgânica é plantada sem nenhum tipo de pesticida químico de laboratório, sem adubos industriais e sem sementes transgênicas. Os agricultores cuidam da terra de forma natural, gerando alimentos mais nutritivos e protegendo a natureza.",
     fonte: "IDEC / FAO (Organização das Nações Unidas)"
   },
   {
@@ -86,8 +86,8 @@ export const MITOS_VERDADES: MitoVerdadeItem[] = [
     afirmacao: "Alimentos hidropônicos não têm defensivos agrícolas",
     tipo: "MITO",
     explicacao:
-      "Alimentos hidropônicos são cultivados na água, sem contato com a terra, mas precisam de soluções de nutrientes químicos e muitos produtores utilizam defensivos agrícolas para controlar pragas e fungos em estufas. Hidropônico não é sinônimo de orgânico. Para ser orgânico de verdade, o alimento deve possuir certificação oficial (como o selo federal do SisOrg) ou declaração emitida pelo Ministério da Agricultura.",
-    fonte: "IDEC / MAPA / SisOrg"
+      "Hidropônico significa apenas que a hortaliça cresceu na água com nutrientes químicos, e não na terra. Muitos produtores ainda aplicam pesticidas para evitar pragas e fungos dentro das estufas. Hidropônico não é orgânico!",
+    fonte: "IDEC / Ministério da Agricultura"
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ export const MITOS_VERDADES: MitoVerdadeItem[] = [
     afirmacao: "Alimentos orgânicos são mais caros do que os cultivados com defensivos agrícolas",
     tipo: "MITO",
     explicacao:
-      "O preço final dos orgânicos varia drasticamente conforme o ponto de venda. Pesquisa do Instituto Kairós e Instituto Terra Mater comprovou que uma cesta com 17 itens orgânicos comprada em feiras é 50% mais barata do que nos supermercados. Em feiras agroecológicas e compras diretas de produtores familiares, os orgânicos frequentemente têm preços equivalentes ou até inferiores aos alimentos convencionais.",
+      "Nos supermercados grandes eles podem custar mais, mas em feiras livres de produtores e feiras agroecológicas, a comida orgânica costuma ter preços iguais ou até mais baratos do que os alimentos cultivados com pesticidas, porque você compra direto de quem planta.",
     fonte: "IDEC / Instituto Kairós / Terra Mater"
   }
 ];

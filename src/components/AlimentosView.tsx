@@ -47,7 +47,7 @@ export const AlimentosView: React.FC = () => {
               Base Científica Oficial
             </span>
             <h1 className="mt-2 text-4xl md:text-5xl font-display font-bold text-primary">
-              Tabela de Alimentos e Defensores
+              Tabela de Alimentos e Defensivos Agrícolas
             </h1>
             <p className="mt-3 text-foreground/75 text-sm sm:text-base leading-relaxed">
               Consulte o nível de atenção de alimentos in natura e ultraprocessados consumidos no Brasil, descubra as substâncias identificadas em análises oficiais e científicas (Anvisa e Idec) e saiba as melhores práticas de prevenção e higienização.
@@ -226,16 +226,16 @@ export const AlimentosView: React.FC = () => {
                     {/* Pesticides or Substances found */}
                     {item.defensivos.length > 0 ? (
                       <div>
-                        <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-1.5">
+                        <div className="text-xs sm:text-sm font-bold uppercase tracking-wider text-muted-foreground mb-1.5">
                           {item.categoria === "Ultraprocessados"
                             ? "Substâncias detectadas em análises:"
                             : "Defensivos detectados pela Anvisa:"}
                         </div>
-                        <div className="flex flex-wrap gap-1">
+                        <div className="flex flex-wrap gap-1.5">
                           {item.defensivos.map((def, i) => (
                             <span
                               key={i}
-                              className="text-xs font-medium px-2 py-0.5 rounded-md bg-secondary text-secondary-foreground"
+                              className="text-xs sm:text-sm font-medium px-2.5 py-1 rounded-md bg-secondary text-secondary-foreground"
                             >
                               {def}
                             </span>
@@ -244,24 +244,24 @@ export const AlimentosView: React.FC = () => {
                       </div>
                     ) : (
                       <div>
-                        <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-1.5">
+                        <div className="text-xs sm:text-sm font-bold uppercase tracking-wider text-muted-foreground mb-1.5">
                           Substâncias detectadas em análises:
                         </div>
-                        <span className="text-xs font-medium px-2 py-0.5 rounded-md bg-[var(--leaf)]/15 text-[var(--leaf)] font-semibold inline-flex items-center gap-1">
-                          <CheckCircle2 className="w-3 h-3" /> Nenhum resíduo detectado no lote analisado
+                        <span className="text-xs sm:text-sm font-medium px-2.5 py-1 rounded-md bg-[var(--leaf)]/15 text-[var(--leaf)] font-semibold inline-flex items-center gap-1.5">
+                          <CheckCircle2 className="w-3.5 h-3.5" /> Nenhum resíduo detectado no lote analisado
                         </span>
                       </div>
                     )}
 
                     {/* Health Risks */}
                     {item.riscos.length > 0 && (
-                      <div className="space-y-1">
-                        <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
+                      <div className="space-y-1.5">
+                        <div className="text-xs sm:text-sm font-bold uppercase tracking-wider text-muted-foreground">
                           Potenciais riscos à saúde:
                         </div>
-                        <ul className="space-y-1">
+                        <ul className="space-y-1.5">
                           {item.riscos.map((risco, i) => (
-                            <li key={i} className="flex items-start gap-1.5 text-xs text-foreground/85 leading-tight">
+                            <li key={i} className="flex items-start gap-1.5 text-xs sm:text-sm text-foreground/90 leading-snug">
                               <AlertTriangle className="w-3.5 h-3.5 text-[var(--tomato)] shrink-0 mt-0.5" />
                               <span>{risco}</span>
                             </li>
@@ -271,7 +271,7 @@ export const AlimentosView: React.FC = () => {
                     )}
 
                     {item.saiba_mais && (
-                      <p className="text-xs text-foreground/75 line-clamp-2 italic">
+                      <p className="text-xs sm:text-sm text-foreground/85 line-clamp-3 italic leading-relaxed">
                         "{item.saiba_mais}"
                       </p>
                     )}
@@ -281,9 +281,9 @@ export const AlimentosView: React.FC = () => {
                   <div className="pt-2 border-t border-border">
                     <button
                       onClick={() => toggleFlip(item.id)}
-                      className="w-full flex items-center justify-center gap-2 py-2 px-4 rounded-xl bg-secondary/80 hover:bg-secondary text-secondary-foreground text-xs font-bold transition cursor-pointer"
+                      className="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-secondary/80 hover:bg-secondary text-secondary-foreground text-xs sm:text-sm font-bold transition cursor-pointer shadow-xs"
                     >
-                      <RotateCcw className="w-3.5 h-3.5" />
+                      <RotateCcw className="w-4 h-4" />
                       {item.categoria === "Ultraprocessados" ? "Prevenção & Cuidados" : "Como Higienizar & Cuidados"}
                     </button>
                   </div>
@@ -291,21 +291,21 @@ export const AlimentosView: React.FC = () => {
               ) : (
                 /* BACK VIEW: Scientific Cleaning Method & Care Steps */
                 <div className="p-5 flex-1 flex flex-col justify-between bg-secondary/15 animate-in fade-in duration-200">
-                  <div className="space-y-3">
+                  <div className="space-y-3.5">
                     <div className="flex items-center justify-between border-b border-border pb-2">
-                      <div className="text-xs font-bold uppercase tracking-wider text-primary flex items-center gap-1.5">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-[var(--leaf)]" />
+                      <div className="text-xs sm:text-sm font-bold uppercase tracking-wider text-primary flex items-center gap-1.5">
+                        <CheckCircle2 className="w-4 h-4 text-[var(--leaf)]" />
                         {item.categoria === "Ultraprocessados" ? "Prevenção & Recomendações" : "Higienização Recomendada"}
                       </div>
-                      <span className="text-xs text-muted-foreground font-semibold">
+                      <span className="text-xs sm:text-sm text-muted-foreground font-semibold">
                         {item.categoria}
                       </span>
                     </div>
 
                     {item.limpeza ? (
-                      <div className="space-y-2 text-xs text-foreground/85">
-                        <p className="font-bold text-primary">{item.limpeza.metodo}</p>
-                        <ol className="space-y-1.5 list-decimal list-inside text-foreground/80 leading-relaxed">
+                      <div className="space-y-2 text-xs sm:text-sm text-foreground/90">
+                        <p className="font-bold text-primary text-sm sm:text-base">{item.limpeza.metodo}</p>
+                        <ol className="space-y-1.5 list-decimal list-inside text-foreground/85 leading-relaxed">
                           {item.limpeza.passos.map((passo, idx) => (
                             <li key={idx} className="pl-1">
                               <span>{passo}</span>
@@ -314,17 +314,17 @@ export const AlimentosView: React.FC = () => {
                         </ol>
 
                         {item.limpeza.observacao && (
-                          <div className="rounded-xl bg-card border border-border p-2.5 mt-2 text-xs text-muted-foreground leading-normal">
+                          <div className="rounded-xl bg-card border border-border p-3 mt-2 text-xs sm:text-sm text-muted-foreground leading-relaxed">
                             <strong>Nota:</strong> {item.limpeza.observacao}
                           </div>
                         )}
                       </div>
                     ) : item.cuidados_texto ? (
-                      <p className="text-xs text-foreground/85 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-foreground/85 leading-relaxed">
                         {item.cuidados_texto}
                       </p>
                     ) : (
-                      <p className="text-xs text-foreground/75 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-foreground/80 leading-relaxed">
                         Lavar em água corrente potável por pelo menos 1 minuto e, se possível, deixar de molho em solução clorada por 15 minutos.
                       </p>
                     )}

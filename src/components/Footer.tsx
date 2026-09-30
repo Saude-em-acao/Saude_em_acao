@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({ navigate }) => {
             <span>Saúde em Ação</span>
           </div>
           <p className="mt-2.5 text-muted-foreground leading-relaxed">
-            Projeto educativo alinhado à ODS 3 — Saúde e Bem-Estar — sobre os riscos dos defensores agrícolas nos alimentos e como promover uma nutrição consciente.
+            Projeto educativo alinhado à ODS 3 — Saúde e Bem-Estar — sobre os riscos dos defensivos agrícolas nos alimentos e como promover uma nutrição consciente.
           </p>
         </div>
 

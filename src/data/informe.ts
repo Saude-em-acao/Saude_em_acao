@@ -29,7 +29,7 @@ export interface InformeItem {
 export const INFORME_ITEMS: InformeItem[] = [
   {
     "id": "cartilha-idec-vol1",
-    "titulo": "Tem Veneno Nesse Pacote (Vol. 1): O Que Revelam as Análises em Alimentos Ultraprocessados",
+    "titulo": "Pesquisa de Defensivos em Ultraprocessados (Vol. 1): O Que Revelam as Análises em Alimentos Ultraprocessados",
     "subtitulo": "Estudo pioneiro do IDEC avaliou 27 produtos embalados consumidos no Brasil e identificou que o processamento industrial não elimina resíduos de defensivos agrícolas.",
     "categoria": "Cartilhas",
     "veiculo": "IDEC — Cartilha Vol. 1",
@@ -72,7 +72,7 @@ export const INFORME_ITEMS: InformeItem[] = [
       ],
       "conclusaoEducativa": "A pesquisa do IDEC mostra a urgência de políticas públicas que incluam os alimentos industrializados nas rotinas oficiais de monitoramento sanitário, garantindo transparência nos rótulos e o direito fundamental à informação e à saúde de todos os cidadãos.",
       "referencias": [
-        "IDEC. Tem Veneno Nesse Pacote: O perigo duplo dos ultraprocessados (Vol. 1, 2021).",
+        "IDEC. Pesquisa de Defensivos em Ultraprocessados: O perigo duplo dos ultraprocessados (Vol. 1, 2021).",
         "Ministério da Saúde. Guia Alimentar para a População Brasileira, 2ª ed., 2014.",
         "The Lancet Commission. The Global Syndemic of Obesity, Undernutrition, and Climate Change (2019).",
         "Anvisa. Monografias de Defensivos Agrícolas e Dados Abertos."
@@ -81,7 +81,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "cartilha-idec-vol2",
-    "titulo": "Tem Veneno Nesse Pacote (Vol. 2): Defensivos Agrícolas em Ultraprocessados de Origem Animal",
+    "titulo": "Pesquisa de Defensivos em Ultraprocessados (Vol. 2): Defensivos Agrícolas em Ultraprocessados de Origem Animal",
     "subtitulo": "Segunda fase do estudo analisou carnes processadas e lácteos, explicando como os defensivos agrícolas da soja e do milho de rações se acumulam na gordura dos animais.",
     "categoria": "Cartilhas",
     "veiculo": "IDEC — Cartilha Vol. 2",
@@ -124,7 +124,7 @@ export const INFORME_ITEMS: InformeItem[] = [
       ],
       "conclusaoEducativa": "O relatório convida a sociedade e os órgãos reguladores a criarem diretrizes de monitoramento específicas para produtos de origem animal e ultraprocessados, avançando em direção a sistemas alimentares justos, agroecológicos e sustentáveis.",
       "referencias": [
-        "IDEC. Tem Veneno Nesse Pacote: Ultraprocessados de origem animal (Vol. 2, 2022).",
+        "IDEC. Pesquisa de Defensivos em Ultraprocessados: Ultraprocessados de origem animal (Vol. 2, 2022).",
         "Pignati WA et al. Spatial distribution of pesticide use in Brazil. Cien Saude Colet (2017).",
         "Our World in Data. Environmental Impacts of Food & Land Use (2022).",
         "IPCC / ONU. Relatórios do Painel Intergovernamental Sobre Mudanças Climáticas (2022)."
@@ -133,7 +133,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "cartilha-idec-vol3",
-    "titulo": "Tem Veneno Nesse Pacote (Vol. 3): Plant-Based e Novos Produtos sob a Perspectiva Científica",
+    "titulo": "Pesquisa de Defensivos em Ultraprocessados (Vol. 3): Plant-Based e Novos Produtos sob a Perspectiva Científica",
     "subtitulo": "Terceira edição do estudo analisou produtos análogos a carnes à base de plantas, biscoitos, macarrão instantâneo e bebidas lácteas, destacando o debate sobre o inseticida fipronil e polinizadores.",
     "categoria": "Cartilhas",
     "veiculo": "IDEC — Cartilha Vol. 3",
@@ -144,7 +144,7 @@ export const INFORME_ITEMS: InformeItem[] = [
     "imagem": "/assets/artigo-idec-vol3.jpg",
     "conteudoCompleto": {
       "temaPrincipal": "Avaliação científica de alimentos plant-based ultraprocessados, derivados de trigo, bebidas infantis e impactos na biodiversidade.",
-      "introducao": "Lançado em 2024, o terceiro volume do relatório 'Tem Veneno Nesse Pacote' investigou 24 amostras de produtos industriais, incorporando pela primeira vez duas categorias inovadoras do mercado: hambúrgueres e empanados análogos a carne à base de plantas (conhecidos comercialmente como 'plant-based'). Além deles, foram avaliados macarrão instantâneo, biscoito maisena, presunto cozido, bolo de chocolate pronto, petit suisse e bebidas lácteas.",
+      "introducao": "Lançado em 2024, o terceiro volume do relatório 'Pesquisa de Defensivos em Ultraprocessados' investigou 24 amostras de produtos industriais, incorporando pela primeira vez duas categorias inovadoras do mercado: hambúrgueres e empanados análogos a carne à base de plantas (conhecidos comercialmente como 'plant-based'). Além deles, foram avaliados macarrão instantâneo, biscoito maisena, presunto cozido, bolo de chocolate pronto, petit suisse e bebidas lácteas.",
       "secoes": [
         {
           "subtitulo": "Ultraprocessados Plant-Based: Alimentos 'Modernos' com Velhos Desafios",
@@ -176,7 +176,7 @@ export const INFORME_ITEMS: InformeItem[] = [
       ],
       "conclusaoEducativa": "O terceiro relatório reforça o reconhecimento internacional do Guia Alimentar para a População Brasileira pela FAO em 2024, evidenciando que comer bem passa pela valorização de preparações culinárias caseiras, ingredientes locais e defesa do meio ambiente.",
       "referencias": [
-        "IDEC. Tem Veneno Nesse Pacote: Novos produtos, velhos problemas (Vol. 3, 2024).",
+        "IDEC. Pesquisa de Defensivos em Ultraprocessados: Novos produtos, velhos problemas (Vol. 3, 2024).",
         "FAO. Food systems-based dietary guidelines: an overview (2024).",
         "Ibama. Nota Técnica sobre suspensão cautelar de defensivos agrícolas à base de fipronil.",
         "Frontiers in Public Health. Multiscale analysis of pesticide residues in food in Brazil (2023)."
@@ -217,7 +217,7 @@ export const INFORME_ITEMS: InformeItem[] = [
         {
           "subtitulo": "Consumo Consciente sem Culpa: O Papel das Políticas Públicas",
           "conteudo": "Um princípio fundamental defendido pelo IDEC e pelo Saúde em Ação é que a responsabilidade não deve recair exclusivamente sobre as costas do consumidor ou das famílias trabalhadoras. Não se trata de criar pânico alimentar ou estigmatizar quem consome produtos embalados por falta de tempo ou de recursos financeiros, mas sim de cobrar transparência da indústria, fortalecimento do PARA da Anvisa e incentivos fiscais para a produção de alimentos saudáveis da agricultura familiar.",
-          "destaque": "Alimentação saudável e livre de venenos é um direito coletivo e cidadão, que demanda regulação pública efetiva."
+          "destaque": "Alimentação saudável e livre de pesticidas é um direito coletivo e cidadão, que demanda regulação pública efetiva."
         }
       ],
       "cuidadosRecomendados": [
@@ -228,7 +228,7 @@ export const INFORME_ITEMS: InformeItem[] = [
       ],
       "conclusaoEducativa": "O caminho para o futuro da alimentação passa pelo respeito à biodiversidade, valorização do Guia Alimentar brasileiro e empoderamento da juventude como guardiã da saúde coletiva e do equilíbrio ambiental.",
       "referencias": [
-        "IDEC. Coleção Tem Veneno Nesse Pacote: Volumes 1 (2021), 2 (2022) e 3 (2024).",
+        "IDEC. Coleção Pesquisa de Defensivos em Ultraprocessados: Volumes 1 (2021), 2 (2022) e 3 (2024).",
         "Ministério da Saúde. Guia Alimentar para a População Brasileira (2014).",
         "FAO/ONU. Sustainable Food Systems and Food-based Dietary Guidelines (2024)."
       ]
@@ -236,8 +236,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "1",
-    "titulo": "Defensores Agrícolas: o veneno que chega à mesa",
-    "subtitulo": "Reportagem em vídeo sobre o uso de defensores agrícolas no Brasil e seus efeitos sobre a saúde.",
+    "titulo": "Defensivos Agrícolas: os pesticidas que chegam à mesa",
+    "subtitulo": "Reportagem em vídeo sobre o uso de defensivos agrícolas no Brasil e seus efeitos sobre a saúde.",
     "categoria": "Vídeos",
     "veiculo": "YouTube",
     "data": "Estudo / Notícia Oficial",
@@ -246,8 +246,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "2",
-    "titulo": "Defensores Agrícolas no Brasil: impactos na saúde humana e ambiental",
-    "subtitulo": "Panorama do IDEC sobre como os defensores agrícolas afetam a saúde da população e o meio ambiente.",
+    "titulo": "Defensivos Agrícolas no Brasil: impactos na saúde humana e ambiental",
+    "subtitulo": "Panorama do IDEC sobre como os defensivos agrícolas afetam a saúde da população e o meio ambiente.",
     "categoria": "Artigos",
     "veiculo": "IDEC",
     "data": "Estudo / Notícia Oficial",
@@ -257,7 +257,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   {
     "id": "3",
     "titulo": "Anvisa divulga lista de alimentos com maior contaminação",
-    "subtitulo": "Resumo do Programa de Análise de Resíduos de Defensores Agrícolas em Alimentos (PARA) da Anvisa.",
+    "subtitulo": "Resumo do Programa de Análise de Resíduos de Defensivos Agrícolas em Alimentos (PARA) da Anvisa.",
     "categoria": "Reportagens",
     "veiculo": "Tommasi Laboratório",
     "data": "Estudo / Notícia Oficial",
@@ -266,8 +266,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "4",
-    "titulo": "Defensores Agrícolas causam problemas que só serão percebidos no futuro",
-    "subtitulo": "Pesquisadores da UFMG alertam sobre os efeitos crônicos e cumulativos dos defensores agrícolas.",
+    "titulo": "Defensivos Agrícolas causam problemas que só serão percebidos no futuro",
+    "subtitulo": "Pesquisadores da UFMG alertam sobre os efeitos crônicos e cumulativos dos defensivos agrícolas.",
     "categoria": "Artigos",
     "veiculo": "Faculdade de Medicina UFMG",
     "data": "Estudo / Notícia Oficial",
@@ -276,7 +276,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "5",
-    "titulo": "Intoxicação Aguda por Defensores Agrícolas",
+    "titulo": "Intoxicação Aguda por Defensivos Agrícolas",
     "subtitulo": "Página oficial do governo do PR sobre sinais, sintomas e protocolos de intoxicação aguda.",
     "categoria": "Artigos",
     "veiculo": "Secretaria de Saúde do Paraná",
@@ -286,8 +286,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "6",
-    "titulo": "Defensores Agrícolas e saúde — análise crítica",
-    "subtitulo": "Artigo científico revisado por pares sobre saúde pública e defensores agrícolas no Brasil.",
+    "titulo": "Defensivos Agrícolas e saúde — análise crítica",
+    "subtitulo": "Artigo científico revisado por pares sobre saúde pública e defensivos agrícolas no Brasil.",
     "categoria": "Artigos",
     "veiculo": "SciELO · Saúde em Debate",
     "data": "Estudo / Notícia Oficial",
@@ -296,8 +296,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "7",
-    "titulo": "Um alerta sobre os impactos dos defensores agrícolas na saúde",
-    "subtitulo": "Documento técnico do INCA com evidências científicas sobre câncer e defensores agrícolas.",
+    "titulo": "Um alerta sobre os impactos dos defensivos agrícolas na saúde",
+    "subtitulo": "Documento técnico do INCA com evidências científicas sobre câncer e defensivos agrícolas.",
     "categoria": "Artigos",
     "veiculo": "INCA — Instituto Nacional de Câncer",
     "data": "Estudo / Notícia Oficial",
@@ -306,7 +306,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "8",
-    "titulo": "Quais são os alimentos mais contaminados por defensores agrícolas no Brasil",
+    "titulo": "Quais são os alimentos mais contaminados por defensivos agrícolas no Brasil",
     "subtitulo": "Lista dos alimentos com mais e menos resíduos detectados pela Anvisa.",
     "categoria": "Reportagens",
     "veiculo": "Saúde Abril",
@@ -316,7 +316,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "9",
-    "titulo": "Alimentos com mais defensores agrícolas — riscos à saúde",
+    "titulo": "Alimentos com mais defensivos agrícolas — riscos à saúde",
     "subtitulo": "Especialistas explicam os riscos por trás do consumo frequente de alimentos contaminados.",
     "categoria": "Reportagens",
     "veiculo": "Metrópoles",
@@ -326,7 +326,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "10",
-    "titulo": "Laranja, pimentão e goiaba: campeões de defensores agrícolas acima do limite",
+    "titulo": "Laranja, pimentão e goiaba: campeões de defensivos agrícolas acima do limite",
     "subtitulo": "Investigação independente sobre os alimentos com mais resíduos irregulares.",
     "categoria": "Reportagens",
     "veiculo": "Agência Pública",
@@ -336,7 +336,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "11",
-    "titulo": "Anvisa alerta: 2 frutas populares no Brasil têm defensores agrícolas em excesso",
+    "titulo": "Anvisa alerta: 2 frutas populares no Brasil têm defensivos agrícolas em excesso",
     "subtitulo": "Alerta da Anvisa sobre frutas amplamente consumidas e com níveis irregulares.",
     "categoria": "Reportagens",
     "veiculo": "UOL VivaBem",
@@ -346,7 +346,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "12",
-    "titulo": "Anvisa divulga lista com os 10 alimentos mais afetados por defensores agrícolas",
+    "titulo": "Anvisa divulga lista com os 10 alimentos mais afetados por defensivos agrícolas",
     "subtitulo": "Ranking oficial dos alimentos mais contaminados segundo o PARA da Anvisa.",
     "categoria": "Reportagens",
     "veiculo": "O Tempo",
@@ -356,7 +356,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "13",
-    "titulo": "Pepino e laranja: alimentos campeões de defensores agrícolas (Anvisa 2024)",
+    "titulo": "Pepino e laranja: alimentos campeões de defensivos agrícolas (Anvisa 2024)",
     "subtitulo": "Análise dos dados mais recentes do Programa de Análise de Resíduos da Anvisa.",
     "categoria": "Reportagens",
     "veiculo": "Repórter Brasil",
@@ -366,8 +366,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "14",
-    "titulo": "Anvisa divulga resultados do monitoramento de defensores agrícolas — Ciclo 2024",
-    "subtitulo": "Cobertura do G1 sobre os números oficiais do monitoramento de defensores agrícolas.",
+    "titulo": "Anvisa divulga resultados do monitoramento de defensivos agrícolas — Ciclo 2024",
+    "subtitulo": "Cobertura do G1 sobre os números oficiais do monitoramento de defensivos agrícolas.",
     "categoria": "Reportagens",
     "veiculo": "G1 Saúde",
     "data": "Estudo / Notícia Oficial",
@@ -376,8 +376,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "15",
-    "titulo": "A fruta brasileira com maior teor de defensores agrícolas, segundo a Anvisa",
-    "subtitulo": "Matéria sobre a fruta líder em resíduos de defensores agrícolas no monitoramento da Anvisa.",
+    "titulo": "A fruta brasileira com maior teor de defensivos agrícolas, segundo a Anvisa",
+    "subtitulo": "Matéria sobre a fruta líder em resíduos de defensivos agrícolas no monitoramento da Anvisa.",
     "categoria": "Reportagens",
     "veiculo": "TudoGostoso",
     "data": "Estudo / Notícia Oficial",
@@ -386,8 +386,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "16",
-    "titulo": "Veneno no prato dos outros é refresco",
-    "subtitulo": "Análise crítica do Greenpeace sobre a flexibilização das regras de defensores agrícolas no Brasil.",
+    "titulo": "Pesticidas no prato dos outros é refresco",
+    "subtitulo": "Análise crítica do Greenpeace sobre a flexibilização das regras de defensivos agrícolas no Brasil.",
     "categoria": "Artigos",
     "veiculo": "Greenpeace Brasil",
     "data": "Estudo / Notícia Oficial",
@@ -396,7 +396,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "17",
-    "titulo": "Núcleo de Estudos NUQUALI — Defensores Agrícolas em alimentos",
+    "titulo": "Núcleo de Estudos NUQUALI — Defensivos Agrícolas em alimentos",
     "subtitulo": "Estudo acadêmico da Universidade Federal de Lavras sobre qualidade dos alimentos.",
     "categoria": "Artigos",
     "veiculo": "UFLA",
@@ -406,7 +406,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "18",
-    "titulo": "Laranja e abacaxi no topo da contaminação por defensores agrícolas",
+    "titulo": "Laranja e abacaxi no topo da contaminação por defensivos agrícolas",
     "subtitulo": "Reportagem do O Globo sobre as frutas com maior detecção de resíduos.",
     "categoria": "Reportagens",
     "veiculo": "O Globo",
@@ -416,7 +416,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "19",
-    "titulo": "As frutas mais venenosas que os brasileiros adoram",
+    "titulo": "As frutas com mais pesticidas que os brasileiros adoram",
     "subtitulo": "Frutas amplamente consumidas no país com altos níveis de pesticidas.",
     "categoria": "Reportagens",
     "veiculo": "TudoGostoso",
@@ -436,8 +436,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "21",
-    "titulo": "Defensores agrícolas em legumes e hortaliças: estudo da Unicamp",
-    "subtitulo": "Pesquisa da Faculdade de Ciências Farmacêuticas da Unicamp sobre resíduos de defensores agrícolas em legumes e hortaliças.",
+    "titulo": "Defensivos agrícolas em legumes e hortaliças: estudo da Unicamp",
+    "subtitulo": "Pesquisa da Faculdade de Ciências Farmacêuticas da Unicamp sobre resíduos de defensivos agrícolas em legumes e hortaliças.",
     "categoria": "Artigos",
     "veiculo": "FCF · Unicamp",
     "data": "Estudo / Notícia Oficial",
@@ -447,7 +447,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   {
     "id": "22",
     "titulo": "O que tem de errado com o alimento que comemos?",
-    "subtitulo": "Vídeo do Greenpeace Brasil que questiona os problemas dos alimentos que consumimos e os impactos dos defensores agrícolas.",
+    "subtitulo": "Vídeo do Greenpeace Brasil que questiona os problemas dos alimentos que consumimos e os impactos dos defensivos agrícolas.",
     "categoria": "Vídeos",
     "veiculo": "Greenpeace Brasil",
     "data": "Estudo / Notícia Oficial",
@@ -456,8 +456,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "23",
-    "titulo": "Reportagem especial sobre defensores agrícolas (Globoplay)",
-    "subtitulo": "Reportagem em vídeo sobre o cenário dos defensores agrícolas no Brasil.",
+    "titulo": "Reportagem especial sobre defensivos agrícolas (Globoplay)",
+    "subtitulo": "Reportagem em vídeo sobre o cenário dos defensivos agrícolas no Brasil.",
     "categoria": "Vídeos",
     "veiculo": "Globoplay",
     "data": "Estudo / Notícia Oficial",
@@ -466,7 +466,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "24",
-    "titulo": "Defensores Agrícolas no Brasil — documentário",
+    "titulo": "Defensivos Agrícolas no Brasil — documentário",
     "subtitulo": "Conteúdo audiovisual com depoimentos e dados sobre contaminação alimentar.",
     "categoria": "Vídeos",
     "veiculo": "YouTube",
@@ -476,8 +476,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "25",
-    "titulo": "Reportagem Globoplay — defensores agrícolas no campo",
-    "subtitulo": "Cobertura televisiva sobre o uso de defensores agrícolas no agronegócio brasileiro.",
+    "titulo": "Reportagem Globoplay — defensivos agrícolas no campo",
+    "subtitulo": "Cobertura televisiva sobre o uso de defensivos agrícolas no agronegócio brasileiro.",
     "categoria": "Vídeos",
     "veiculo": "Globoplay",
     "data": "Estudo / Notícia Oficial",
@@ -486,8 +486,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "26",
-    "titulo": "Defensores Agrícolas e câncer — debate",
-    "subtitulo": "Debate com especialistas sobre a relação entre defensores agrícolas e câncer.",
+    "titulo": "Defensivos Agrícolas e câncer — debate",
+    "subtitulo": "Debate com especialistas sobre a relação entre defensivos agrícolas e câncer.",
     "categoria": "Vídeos",
     "veiculo": "YouTube",
     "data": "Estudo / Notícia Oficial",
@@ -497,7 +497,7 @@ export const INFORME_ITEMS: InformeItem[] = [
   {
     "id": "27",
     "titulo": "Reportagem Globoplay — alimentos contaminados",
-    "subtitulo": "Reportagem investigativa sobre alimentos com resíduos de defensores agrícolas.",
+    "subtitulo": "Reportagem investigativa sobre alimentos com resíduos de defensivos agrícolas.",
     "categoria": "Vídeos",
     "veiculo": "Globoplay",
     "data": "Estudo / Notícia Oficial",
@@ -506,8 +506,8 @@ export const INFORME_ITEMS: InformeItem[] = [
   },
   {
     "id": "28",
-    "titulo": "Como os defensores agrícolas chegam ao seu prato",
-    "subtitulo": "Vídeo que explica o caminho dos defensores agrícolas da lavoura até a mesa do consumidor.",
+    "titulo": "Como os defensivos agrícolas chegam ao seu prato",
+    "subtitulo": "Vídeo que explica o caminho dos defensivos agrícolas da lavoura até a mesa do consumidor.",
     "categoria": "Vídeos",
     "veiculo": "YouTube",
     "data": "Estudo / Notícia Oficial",

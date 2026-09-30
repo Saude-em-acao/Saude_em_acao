@@ -75,7 +75,7 @@ export const MitoVerdadeSection: React.FC = () => {
           return (
             <div
               key={item.id}
-              className="flip-card-container h-[400px] sm:h-[420px] w-full select-none"
+              className="flip-card-container h-[430px] sm:h-[460px] w-full select-none"
             >
               <div
                 onClick={() => toggleCard(item.id)}
@@ -107,11 +107,11 @@ export const MitoVerdadeSection: React.FC = () => {
 
                   {/* Topo da Frente */}
                   <div className="w-full flex items-center justify-between gap-3">
-                    <span className="px-2.5 py-1 rounded-full bg-primary/10 text-primary font-bold text-xs font-mono border border-primary/20">
+                    <span className="px-3 py-1 rounded-full bg-primary/10 text-primary font-bold text-xs sm:text-sm font-mono border border-primary/20">
                       Card #{String(item.id).padStart(2, "0")}
                     </span>
 
-                    <span className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-muted-foreground px-2.5 py-1 rounded-full bg-secondary/70">
+                    <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-muted-foreground px-3 py-1 rounded-full bg-secondary/70">
                       <HelpCircle className="w-3.5 h-3.5 text-primary" />
                       Toque para virar
                     </span>
@@ -126,23 +126,23 @@ export const MitoVerdadeSection: React.FC = () => {
                       </span>
                     </div>
 
-                    <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest text-[var(--leaf)] mb-2 block">
+                    <span className="text-xs font-bold uppercase tracking-widest text-[var(--leaf)] mb-2 block">
                       Mito ou Verdade?
                     </span>
 
                     {/* Afirmação Centralizada com Proporção Ideal */}
-                    <h3 className="text-lg sm:text-xl font-display font-bold leading-snug sm:leading-relaxed text-foreground max-w-[280px] sm:max-w-[320px] mx-auto">
+                    <h3 className="text-xl sm:text-2xl font-display font-bold leading-snug sm:leading-relaxed text-foreground max-w-[290px] sm:max-w-[340px] mx-auto">
                       “{item.afirmacao}”
                     </h3>
                   </div>
 
                   {/* Rodapé da Frente */}
-                  <div className="w-full pt-3.5 border-t border-border/70 flex items-center justify-between text-xs text-muted-foreground">
+                  <div className="w-full pt-3.5 border-t border-border/70 flex items-center justify-between text-xs sm:text-sm text-muted-foreground">
                     <span className="font-semibold text-primary flex items-center gap-1.5">
-                      <RotateCw className="w-3.5 h-3.5 text-primary" />
+                      <RotateCw className="w-4 h-4 text-primary" />
                       Clique para descobrir
                     </span>
-                    <span className="text-[11px] opacity-75 font-mono">IDEC</span>
+                    <span className="text-xs opacity-75 font-mono">IDEC</span>
                   </div>
                 </div>
 
@@ -156,7 +156,7 @@ export const MitoVerdadeSection: React.FC = () => {
                 >
                   {/* Topo do Verso: Identificação VERDADE ou MITO */}
                   <div className="flex items-center justify-between gap-3">
-                    <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white font-display text-sm font-extrabold uppercase tracking-wider shadow-xs">
+                    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white font-display text-sm sm:text-base font-extrabold uppercase tracking-wider shadow-xs">
                       {isVerdade ? (
                         <>
                           <CheckCircle className="w-4 h-4 text-emerald-200" />
@@ -170,30 +170,30 @@ export const MitoVerdadeSection: React.FC = () => {
                       )}
                     </div>
 
-                    <span className="text-xs font-bold text-white/95 bg-black/25 px-2.5 py-1 rounded-full flex items-center gap-1.5 border border-white/20">
+                    <span className="text-xs sm:text-sm font-bold text-white/95 bg-black/25 px-3 py-1 rounded-full flex items-center gap-1.5 border border-white/20">
                       <span role="img" aria-hidden="true">{item.emoji}</span>
                       <span className="font-mono">#{String(item.id).padStart(2, "0")}</span>
                     </span>
                   </div>
 
                   {/* Conteúdo Explicativo */}
-                  <div className="my-auto py-2 space-y-2 overflow-y-auto max-h-[230px] sm:max-h-[250px] pr-1 scrollbar-thin">
-                    <h4 className="text-xs font-bold uppercase tracking-wider text-white/80 flex items-center gap-1">
-                      <BookOpen className="w-3 h-3" />
-                      Explicação Científica
+                  <div className="my-auto py-2 space-y-2 overflow-y-auto max-h-[250px] sm:max-h-[280px] pr-1 scrollbar-thin">
+                    <h4 className="text-xs sm:text-sm font-bold uppercase tracking-wider text-white/80 flex items-center gap-1">
+                      <BookOpen className="w-3.5 h-3.5" />
+                      Explicação
                     </h4>
-                    <p className="text-xs sm:text-sm leading-relaxed text-white/95 font-medium">
+                    <p className="text-sm sm:text-base leading-relaxed text-white/95 font-medium">
                       {item.explicacao}
                     </p>
                   </div>
 
                   {/* Rodapé do Verso */}
-                  <div className="pt-3 border-t border-white/20 flex items-center justify-between text-xs text-white/80">
-                    <span className="text-[11px] truncate max-w-[200px]" title={item.fonte}>
+                  <div className="pt-3 border-t border-white/20 flex items-center justify-between text-xs sm:text-sm text-white/80">
+                    <span className="text-xs truncate max-w-[200px]" title={item.fonte}>
                       Fonte: {item.fonte}
                     </span>
                     <span className="font-bold flex items-center gap-1 text-white hover:underline cursor-pointer">
-                      <RotateCw className="w-3 h-3" />
+                      <RotateCw className="w-3.5 h-3.5" />
                       Desvirar
                     </span>
                   </div>

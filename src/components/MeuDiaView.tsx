@@ -239,19 +239,19 @@ export const MeuDiaView: React.FC<MeuDiaViewProps> = ({ navigate }) => {
                             onClick={() => setConsumoDetalhes(consumo)}
                             className="text-left flex-1 cursor-pointer group"
                           >
-                            <span className="block font-bold text-sm text-foreground group-hover:text-primary transition">
+                            <span className="block font-bold text-base sm:text-lg text-foreground group-hover:text-primary transition">
                               {consumo.alimento.emoji} {consumo.alimento.nome}
                             </span>
-                            <div className="mt-1 flex items-center gap-2">
+                            <div className="mt-1 flex flex-wrap items-center gap-2">
                               <span
-                                className="text-xs font-bold px-2 py-0.5 rounded-full flex items-center gap-1"
+                                className="text-xs sm:text-sm font-bold px-2.5 py-0.5 rounded-full flex items-center gap-1"
                                 style={{
                                   background: `color-mix(in oklab, ${nivel.cor} 22%, var(--card))`
                                 }}
                               >
                                 {nivel.emoji} {nivel.rotulo}
                               </span>
-                              <span className="text-xs text-muted-foreground">
+                              <span className="text-xs sm:text-sm text-muted-foreground">
                                 {consumo.cuidados.includes("nenhuma-acao")
                                   ? "Nenhuma ação anterior possível"
                                   : `${consumo.cuidados.length} de ${acoesCuidadosPadrao.length} cuidados`}
@@ -436,13 +436,13 @@ const ChecklistCuidados: React.FC<ChecklistCuidadosProps> = ({
       }`}
     >
       <div className="flex items-center justify-between gap-2">
-        <h4 className="font-display font-bold text-primary flex items-center gap-1.5 text-xs sm:text-sm">
+        <h4 className="font-display font-bold text-primary flex items-center gap-1.5 text-sm sm:text-base">
           <span className="w-5 h-5 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xs shrink-0 font-bold">
             ✓
           </span>
           O que você fez neste alimento?
         </h4>
-        <span className="text-xs font-bold text-primary">🌱 {totalPts} pts</span>
+        <span className="text-xs sm:text-sm font-bold text-primary">🌱 {totalPts} pts</span>
       </div>
 
       <div className="mt-2.5 space-y-1.5">
@@ -457,7 +457,7 @@ const ChecklistCuidados: React.FC<ChecklistCuidadosProps> = ({
               <button
                 type="button"
                 onClick={() => toggleItem(item.id)}
-                className={`w-full text-left flex items-start gap-2.5 rounded-xl border p-2 text-xs transition cursor-pointer ${
+                className={`w-full text-left flex items-start gap-2.5 rounded-xl border p-2.5 text-xs sm:text-sm transition cursor-pointer ${
                   ativo
                     ? isNenhuma
                       ? "border-amber-500/60 bg-amber-500/15 font-semibold text-foreground animate-[cuidado-pulsa_0.3s_ease-out]"
@@ -478,16 +478,16 @@ const ChecklistCuidados: React.FC<ChecklistCuidadosProps> = ({
                 </span>
 
                 <div className="flex-1 leading-tight">
-                  <span className="block font-semibold">{item.nome}</span>
+                  <span className="block font-semibold text-xs sm:text-sm">{item.nome}</span>
                   {item.descricao && !compacto && (
-                    <span className="block text-xs text-muted-foreground mt-0.5">
+                    <span className="block text-xs sm:text-sm text-muted-foreground mt-0.5">
                       {item.descricao}
                     </span>
                   )}
                 </div>
 
                 <span
-                  className={`text-xs font-bold shrink-0 ${
+                  className={`text-xs sm:text-sm font-bold shrink-0 ${
                     isNenhuma ? "text-muted-foreground" : "text-primary"
                   }`}
                 >
@@ -507,7 +507,7 @@ const ChecklistCuidados: React.FC<ChecklistCuidadosProps> = ({
           onSalvar(selecionadosState);
           setSalvando(false);
         }}
-        className="mt-3 w-full rounded-full bg-primary text-primary-foreground font-bold py-2 text-xs hover:opacity-90 transition disabled:opacity-60 cursor-pointer shadow-xs"
+        className="mt-3 w-full rounded-full bg-primary text-primary-foreground font-bold py-2.5 text-xs sm:text-sm hover:opacity-90 transition disabled:opacity-60 cursor-pointer shadow-xs"
       >
         {salvando
           ? "Salvando…"

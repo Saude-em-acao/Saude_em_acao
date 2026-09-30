@@ -286,6 +286,27 @@ export const QuizView: React.FC<QuizViewProps> = ({ navigate }) => {
                 💡 <strong>Lembre-se:</strong> lavar em água corrente reduz resíduos da casca, mas não elimina defensivos agrícolas sistêmicos. Prefira orgânicos, descasque sempre que possível e diversifique a alimentação para reduzir a exposição cumulativa!
               </p>
 
+              {/* Rodapé explicativo dos nomes químicos difíceis citados no jogo */}
+              <div className="max-w-2xl mx-auto text-left rounded-2xl border border-border/80 bg-secondary/20 p-5 sm:p-6 shadow-xs space-y-3">
+                <h4 className="font-display text-sm sm:text-base font-bold text-primary flex items-center gap-2">
+                  <span>📖</span> Entenda os nomes difíceis citados no jogo:
+                </h4>
+                <div className="space-y-2 text-xs sm:text-sm text-foreground/85 leading-relaxed">
+                  <p>
+                    • <strong>*Acefato:</strong> Inseticida forte usado contra lagartas e pulgões. Foi proibido na União Europeia por prejudicar o sistema nervoso, mas ainda é encontrado em pimentões e pepinos no Brasil.
+                  </p>
+                  <p>
+                    • <strong>*Carbendazim:</strong> Produto químico usado para evitar bolores e fungos em frutas e verduras. Pode desregular hormônios e foi proibido pela Anvisa após estudos sobre seus perigos.
+                  </p>
+                  <p>
+                    • <strong>*Fungicidas:</strong> Produtos aplicados nas plantações para combater fungos e mofos em vegetais com casca fina, como morangos, tomates e uvas.
+                  </p>
+                  <p>
+                    • <strong>*Defensivos Sistêmicos:</strong> Agroquímicos que a planta absorve pela seiva e vão para dentro da polpa. Não saem apenas lavando a casca em casa.
+                  </p>
+                </div>
+              </div>
+
               <div className="pt-4 flex flex-wrap items-center justify-center gap-3">
                 <button
                   onClick={restartQuiz}
