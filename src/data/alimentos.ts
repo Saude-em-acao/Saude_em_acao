@@ -2833,5 +2833,164 @@ export const ALIMENTOS: Alimento[] = [
       "observacao": "A recomendação do Ministério da Saúde é não oferecer alimentos com adição de açúcares nos primeiros dois anos de vida.",
       "fonte": "Idec - Pesquisa sobre Defensivos em Alimentos (Vol. 3) e Ministério da Saúde."
     }
+  },
+  {
+    "id": "cereal-infantil",
+    "slug": "cereal-infantil",
+    "nome": "Cereal Infantil (Milho e Multicereais)",
+    "emoji": "🥣",
+    "categoria": "Ultraprocessados",
+    "nivel_atencao": "maior",
+    "defensivos": [
+      "Glifosato",
+      "Glufosinato",
+      "Pirimifós-metílico",
+      "Butóxido de piperonila"
+    ],
+    "riscos": [
+      "Presença de glifosato e glufosinato, herbicidas associados a riscos toxicológicos e metabólicos",
+      "Contém o sinergista butóxido de piperonila, que potencializa a toxicidade de inseticidas no organismo",
+      "Exposição de lactentes e crianças de primeira infância a múltiplos resíduos químicos em fase de desenvolvimento",
+      "Alimento ultraprocessado que antecipa o contato com açúcares e desestimula a comida in natura"
+    ],
+    "imagem_url": "/assets/cereal-infantil.jpg",
+    "saiba_mais": "No Volume 4 da pesquisa do IDEC (2026), amostras de cereal infantil de milho (como Mucilon) apresentaram resíduos de glifosato, glufosinato e pirimifós-metílico, além do aditivo butóxido de piperonila (BPO), ficando em 2º lugar entre os produtos com mais resíduos da cartilha.",
+    "cuidados_texto": "Para bebês a partir de 6 meses, o Ministério da Saúde orienta alimentação complementar baseada em comida de verdade: frutas frescas raspadas ou amassadas, papas de legumes e cereais integrais cozidos em casa, sem adição de açúcar ou produtos químicos.",
+    "fontes": [
+      "IDEC - Pesquisa de Defensivos em Alimentos (Volume 4, 2026)",
+      "Guia Alimentar para Crianças Brasileiras Menores de 2 Anos (Ministério da Saúde)"
+    ],
+    "limpeza": {
+      "metodo": "Prevenção & Recomendações na Primeira Infância",
+      "passos": [
+        "Não é possível retirar resíduos químicos de pós e farinhas industriais.",
+        "Evite o uso rotineiro de cereais infantis instantâneos na alimentação de bebês.",
+        "Prepare mingaus caseiros simples utilizando aveia em flocos finos cozida em água com frutas amassadas (banana, maçã ou pera).",
+        "Mantenha a amamentação materna até os dois anos ou mais, conforme preconiza a Organização Mundial da Saúde (OMS)."
+      ],
+      "observacao": "Cereais infantis ultraprocessados frequentemente contêm açúcares ocultos e aditivos que alteram a formação do paladar infantil.",
+      "fonte": "IDEC (Vol. 4, 2026) e Ministério da Saúde."
+    }
+  },
+  {
+    "id": "composto-lacteo",
+    "slug": "composto-lacteo",
+    "nome": "Composto Lácteo Infantil",
+    "emoji": "🥛",
+    "categoria": "Ultraprocessados",
+    "nivel_atencao": "maior",
+    "defensivos": [
+      "Fipronil (IFA)",
+      "Fluazuron",
+      "Lufenuron",
+      "2-Fenilfenol",
+      "Sanitizantes BAC (cloretos de benzalcônio)"
+    ],
+    "riscos": [
+      "Detecção de fipronil, inseticida veterinário com restrição severa pelo Ibama e proibido para gado leiteiro",
+      "Presença inédita de resíduos de sanitizantes industriais (BAC), sem limites de segurança definidos para crianças",
+      "Compostos lipofílicos que se fixam na fração gordurosa e sobrecarregam o organismo infantil em formação",
+      "Produto ultraprocessado frequentemente confundido com leite integral, mas que contém óleos vegetais e açúcares"
+    ],
+    "imagem_url": "/assets/composto-lacteo.jpg",
+    "saiba_mais": "Na análise do IDEC (Vol. 4, 2026), marcas como Ninho Forti+ Fibras e Piracanjuba Excellence apresentaram resíduos de fipronil e fluazurona, além de sanitizantes industriais de limpeza fabril. Compostos lácteos não são recomendados para substituir o leite materno.",
+    "cuidados_texto": "Compostos lácteos contêm ingredientes industriais adicionados (como gordura vegetal e xaropes) e não substituem o leite materno. A recomendação pediátrica é priorizar a amamentação ou, na impossibilidade, seguir rigorosa orientação médica.",
+    "fontes": [
+      "IDEC - Pesquisa de Defensivos em Alimentos (Volume 4, 2026)",
+      "Anvisa (IN nº 162/2022) / Ibama",
+      "Guia Alimentar para Crianças Brasileiras Menores de 2 Anos"
+    ],
+    "limpeza": {
+      "metodo": "Prevenção & Recomendações na Primeira Infância",
+      "passos": [
+        "Leia atentamente a denominação de venda no rótulo para não confundir composto lácteo com leite puro.",
+        "Evite oferecer compostos lácteos a crianças pequenas, pois contêm aditivos, óleos e açúcares desnecessários.",
+        "Priorize o leite materno; após os dois anos, se indicado pelo pediatra, utilize leite pasteurizado integral tradicional.",
+        "Em caso de dúvidas na transição alimentar, consulte sempre um pediatra ou nutricionista infantil."
+      ],
+      "observacao": "Resíduos de sanitizantes industriais (BAC) detectados indicam falhas de boas práticas no enxágue de equipamentos na indústria.",
+      "fonte": "IDEC (Vol. 4, 2026) e Ministério da Saúde."
+    }
+  },
+  {
+    "id": "engrossante-infantil",
+    "slug": "engrossante-infantil",
+    "nome": "Engrossante e Mingau de Multicereais",
+    "emoji": "🌾",
+    "categoria": "Ultraprocessados",
+    "nivel_atencao": "maior",
+    "defensivos": [
+      "Glifosato",
+      "Glufosinato",
+      "Bifentrina",
+      "Deltametrina",
+      "Pirimifós-metílico",
+      "Tebuconazol",
+      "Triciclazol",
+      "Butóxido de piperonila"
+    ],
+    "riscos": [
+      "Campeão de contaminação do Volume 4: até 7 defensivos agrícolas diferentes em um mesmo pacote",
+      "Efeito coquetel: múltiplos inseticidas e fungicidas químicos atuando conjuntamente no corpo do bebê",
+      "Presença de substâncias com potencial neurotóxico e desregulador do sistema endócrino",
+      "Engrossantes são desnecessários para a nutrição infantil e aumentam o risco de ganho de peso excessivo"
+    ],
+    "imagem_url": "/assets/mingau-infantil.jpg",
+    "saiba_mais": "O Mingau de Multicereais Nutribom (Nutrimental) foi o campeão de contaminação do Volume 4 do IDEC (2026), com 7 defensivos agrícolas detectados e o aditivo butóxido de piperonila. Também foi detectado pirimifós-metílico na farinha Arrozina Tradicional.",
+    "cuidados_texto": "Engrossantes industriais e farinhas prontas não devem ser adicionados às mamadeiras de bebês. Eles sobrecarregam a digestão e contêm resíduos das monoculturas de trigo, arroz e milho. Prefira papa de frutas frescas e legumes cozidos no vapor.",
+    "fontes": [
+      "IDEC - Pesquisa de Defensivos em Alimentos (Volume 4, 2026)",
+      "Sociedade Brasileira de Pediatria (SBP)",
+      "Guia Alimentar para Crianças Brasileiras Menores de 2 Anos"
+    ],
+    "limpeza": {
+      "metodo": "Prevenção & Recomendações na Primeira Infância",
+      "passos": [
+        "Não adicione engrossantes industriais (amidos refinados ou pós pré-cozidos) à mamadeira da criança.",
+        "Se desejar preparar mingau para crianças maiores de 1 ano, utilize grãos integrais puros (como aveia em flocos) cozidos no fogo.",
+        "Adoce mingaus naturalmente apenas com pedaços de frutas frescas bem maduras (como banana ou maçã cozida).",
+        "Consulte o Guia Alimentar para Crianças Menores de 2 Anos para opções de introdução alimentar saudável."
+      ],
+      "observacao": "A mistura de 7 pesticidas em um único alimento destinado a crianças pequenas evidencia a urgência de limites regulatórios específicos da Anvisa.",
+      "fonte": "IDEC (Vol. 4, 2026) e SBP."
+    }
+  },
+  {
+    "id": "formula-infantil",
+    "slug": "formula-infantil",
+    "nome": "Fórmula Infantil de Seguimento",
+    "emoji": "🍼",
+    "categoria": "Ultraprocessados",
+    "nivel_atencao": "atencao",
+    "defensivos": [
+      "Sanitizante BAC (Cloreto de benzalcônio)",
+      "Sanitizante BAC-C12",
+      "Sanitizante BAC-C14"
+    ],
+    "riscos": [
+      "Detecção inédita de resíduos de sanitizantes industriais de limpeza e desinfecção de tanques fabris",
+      "Inexistência de limites máximos de segurança na Anvisa para resíduos de desinfetantes em fórmulas para bebês",
+      "Risco potencial de irritação da mucosa gastrointestinal e perturbação da microbiota infantil em desenvolvimento",
+      "Fórmulas são substitutos do leite materno e só devem ser utilizadas sob indicação estrita de pediatra ou nutricionista"
+    ],
+    "imagem_url": "/assets/formula-infantil.jpg",
+    "saiba_mais": "Na pesquisa do IDEC (Vol. 4, 2026), fórmulas infantis da Nestlé (NAN Comfor 2 e Nestogeno 2) testaram positivo para resíduos de sanitizantes industriais (BAC), indicando falhas no enxágue industrial. A fórmula Aptamil Premium 2 (Danone) não apresentou resíduos.",
+    "cuidados_texto": "O aleitamento materno é a escolha ideal e completa até os dois anos ou mais. Quando o uso de fórmula infantil for prescrito por médico ou nutricionista, siga rigorosamente a dosagem e o modo de preparo higiênico com água tratada e fervida.",
+    "fontes": [
+      "IDEC - Pesquisa de Defensivos em Alimentos (Volume 4, 2026)",
+      "Norma Brasileira de Comercialização de Alimentos para Lactentes (NBCAL)",
+      "Organização Mundial da Saúde (OMS)"
+    ],
+    "limpeza": {
+      "metodo": "Prevenção & Recomendações na Primeira Infância",
+      "passos": [
+        "Priorize e proteja a amamentação materna como direito fundamental de nutrição e proteção infantil.",
+        "Utilize fórmulas infantis exclusivamente com indicação e acompanhamento de profissional de saúde habilitado.",
+        "Higienize adequadamente as mãos e esterilize bicos e mamadeiras com água fervente por 5 minutos antes do preparo.",
+        "Utilize água potável fervida e resfriada a cerca de 70°C para reconstituição do pó, seguindo a colher-medida exata."
+      ],
+      "observacao": "O Idec notificou a Anvisa exigindo que sanitizantes industriais e defensivos em fórmulas infantis sejam fiscalizados no PARA.",
+      "fonte": "IDEC (Vol. 4, 2026) e Ministério da Saúde."
+    }
   }
 ];

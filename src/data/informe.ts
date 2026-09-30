@@ -184,35 +184,90 @@ export const INFORME_ITEMS: InformeItem[] = [
     }
   },
   {
+    "id": "cartilha-idec-vol4",
+    "titulo": "Pesquisa de Defensivos em Ultraprocessados (Vol. 4): Produtos para Primeira Infância",
+    "subtitulo": "Quarto volume da investigação do IDEC revela presença de agrotóxicos e resíduos inéditos de sanitizantes industriais em fórmulas infantis, compostos lácteos, cereais e engrossantes.",
+    "categoria": "Cartilhas",
+    "veiculo": "IDEC — Cartilha Vol. 4",
+    "fonteTipo": "IDEC",
+    "fonteOriginal": "IDEC (Instituto de Defesa de Consumidores, 2026) — Relatório de Pesquisa Vol. 4: Produtos para Primeira Infância",
+    "data": "Edição Oficial 2026",
+    "url": "https://idec.org.br/veneno-no-pacote",
+    "imagem": "/assets/artigo-idec-vol4.jpg",
+    "conteudoCompleto": {
+      "temaPrincipal": "Avaliação laboratorial de 653 defensivos agrícolas e sanitizantes em alimentos ultraprocessados destinados a lactentes e crianças de primeira infância.",
+      "introducao": "Lançado em 2026, o quarto volume da série de investigações do IDEC voltou o olhar para o público mais vulnerável da sociedade: os bebês e crianças de primeira infância (lactentes de até 11 meses e crianças de 1 a 6 anos). A pesquisa analisou 12 amostras nas 4 principais categorias consumidas nesse período — fórmulas infantis de seguimento, compostos lácteos, cereais infantis e engrossantes — submetendo-as a testes específicos com capacidade para detectar até 653 resíduos em laboratório credenciado pelo MAPA e acreditado pelo Inmetro/Cgcre.",
+      "secoes": [
+        {
+          "subtitulo": "Resultados em Destaque da Pesquisa",
+          "conteudo": "Das 4 categorias investigadas, 3 apresentaram resíduos de defensivos agrícolas (75%). No total, 5 dos 12 produtos analisados continham resíduos de agrotóxicos (41,66%). A categoria dos engrossantes apresentou o maior número de substâncias detectadas (10 no total), com destaque para o Mingau de Multicereais Nutribom (Nutrimental), que liderou o ranking do volume com 7 agrotóxicos diferentes e o sinergista butóxido de piperonila (BPO). Em segundo lugar ficou o Cereal Infantil Mucilon Milho (Nestlé), com 3 agrotóxicos e BPO.",
+          "destaque": "O Mingau Nutribom foi o produto com mais resíduos de todo o volume, acumulando 7 agrotóxicos diferentes mais o aditivo butóxido de piperonila.",
+          "dadosChave": [
+            { "label": "Produtos analisados", "valor": "12 amostras infantis" },
+            { "label": "Categorias com agrotóxicos", "valor": "75% (3 de 4)" },
+            { "label": "Produtos com resíduos", "valor": "41,66% (5 amostras)" },
+            { "label": "Com sanitizantes industriais", "valor": "25% (3 amostras)" }
+          ]
+        },
+        {
+          "subtitulo": "Alerta Inédito: Resíduos de Sanitizantes Industriais e Fipronil",
+          "conteudo": "Pela primeira vez na série histórica do IDEC, foram detectados resíduos de sanitizantes industriais desinfetantes (da classe dos cloretos de benzalcônio: BAC, BAC-C12 e BAC-C14) em um quarto dos produtos avaliados, incluindo fórmulas infantis da Nestlé (NAN Comfor 2 e Nestogeno 2) e no Composto Lácteo Ninho Forti+ Fibras. Esses compostos são usados para esterilização de tubulações de fábricas e não deveriam permanecer no produto final, não existindo limite seguro para ingestão infantil. Além disso, foi identificado o inseticida veterinário fipronil em compostos lácteos (Ninho e Piracanjuba Excellence), cujo uso é proibido para gado produtor de leite humano.",
+          "destaque": "Detectados sanitizantes industriais em fórmulas infantis e fipronil em compostos lácteos, evidenciando falhas graves nas boas práticas e no controle da indústria."
+        },
+        {
+          "subtitulo": "Primeira Infância, Publicidade e o Vácuo Regulatório da Anvisa",
+          "conteudo": "O relatório adverte que o Ministério da Saúde recomenda o aleitamento materno exclusivo até os 6 meses e continuado até os 2 anos ou mais, não sendo recomendada a oferta de ultraprocessados na primeira infância. No entanto, o marketing agressivo de sequenciamento de marcas empurra fórmulas e engrossantes às famílias. Para agravar o cenário, a Anvisa ainda não estabelece limites máximos específicos de resíduos de agrotóxicos para produtos ultraprocessados nem os monitora no PARA, criando uma falsa sensação de segurança sanitária enquanto bebês são expostos ao efeito coquetel.",
+          "destaque": "A Anvisa ainda não estabelece limites máximos de agrotóxicos para ultraprocessados infantis, deixando bebês desprotegidos em sua janela mais sensível de desenvolvimento."
+        }
+      ],
+      "cuidadosRecomendados": [
+        "Proteja o aleitamento materno exclusivo até os 6 meses e complementar até os 2 anos ou mais, conforme preconiza o Guia Alimentar para Crianças Brasileiras Menores de 2 Anos.",
+        "Não substitua a comida de verdade por compostos lácteos ou cereais açucarados na introdução alimentar; ofereça frutas in natura amassadas e legumes frescos cozidos.",
+        "Não adicione engrossantes industriais (amidos refinados ou farinhas prontas) às mamadeiras de lactentes.",
+        "Utilize fórmulas infantis apenas sob prescrição e acompanhamento rigoroso de médico pediatra ou nutricionista infantil.",
+        "Apoie a implementação do Pronara (Programa Nacional de Redução de Agrotóxicos) e a cobrança da Anvisa por limites sanitários rigorosos para produtos infantis."
+      ],
+      "conclusaoEducativa": "O quarto volume do IDEC é um chamado urgente para proteger quem está no início da vida: bebês e crianças têm direito fundamental a uma alimentação saudável, segura e livre de contaminação química, exigindo regulação pública firme acima dos lucros corporativos.",
+      "referencias": [
+        "IDEC. Pesquisa de Defensivos em Ultraprocessados: Produtos para primeira infância (Vol. 4, 2026).",
+        "Ministério da Saúde. Guia alimentar para crianças brasileiras menores de 2 anos (2019).",
+        "Brasil. Norma Brasileira de Comercialização de Alimentos para Lactentes e Crianças de Primeira Infância (NBCAL - Lei nº 11.265/2006).",
+        "Anvisa. Resolução RDC nº 774/2023 (Sanitizantes) e Instrução Normativa IN nº 162/2022 (Limites de IFA veterinário).",
+        "The Lancet. Ultra-processed foods and human health: the main thesis and the evidence (Monteiro et al., 2025)."
+      ]
+    }
+  },
+  {
     "id": "cartilha-idec-comparativo",
-    "titulo": "Panorama Histórico das Três Cartilhas do IDEC: O Que Aprendemos em Três Anos de Monitoramento",
-    "subtitulo": "Comparativo detalhado dos relatórios publicados em 2021, 2022 e 2024, tendências observadas em 75 produtos e caminhos para o consumo consciente da juventude.",
+    "titulo": "Panorama Histórico dos Quatro Volumes do IDEC: O Que Aprendemos no Monitoramento",
+    "subtitulo": "Comparativo detalhado dos relatórios publicados em 2021, 2022, 2024 e 2026, tendências observadas em 87 produtos analisados e caminhos para a proteção da infância e da juventude.",
     "categoria": "Cartilhas",
     "veiculo": "IDEC — Síntese Histórica",
     "fonteTipo": "IDEC",
-    "fonteOriginal": "IDEC (Série histórica consolidada dos Volumes 1, 2 e 3: 2021–2024)",
-    "data": "Série Histórica 2021–2024",
+    "fonteOriginal": "IDEC (Série histórica consolidada dos Volumes 1, 2, 3 e 4: 2021–2026)",
+    "data": "Série Histórica 2021–2026",
     "url": "https://idec.org.br/veneno-no-pacote",
     "imagem": "/assets/artigo-idec-sistemas.jpg",
     "conteudoCompleto": {
-      "temaPrincipal": "Análise comparativa das 3 edições da pesquisa pioneira do IDEC sobre ultraprocessados e a consolidação de escolhas sustentáveis.",
-      "introducao": "Ao longo de três investigações independentes realizadas entre 2020 e 2024, o Instituto Brasileiro de Defesa do Consumidor (IDEC) analisou um total de 75 produtos ultraprocessados comercializados no território nacional. Os dados consolidados demonstram padrões consistentes na cadeia agroalimentar industrial e fortalecem o debate público sobre saúde, regulação sanitária e preservação ecológica.",
+      "temaPrincipal": "Análise comparativa das 4 edições da pesquisa pioneira do IDEC sobre ultraprocessados e a consolidação de escolhas sustentáveis.",
+      "introducao": "Ao longo de quatro investigações independentes realizadas entre 2020 e 2026, o Instituto Brasileiro de Defesa do Consumidor (IDEC) analisou um total de 87 produtos ultraprocessados comercializados no território nacional. Os dados consolidados demonstram padrões consistentes na cadeia agroalimentar industrial e fortalecem o debate público sobre saúde, regulação sanitária e preservação ecológica.",
       "secoes": [
         {
-          "subtitulo": "Quadro Comparativo das Três Edições",
-          "conteudo": "Cada volume da pesquisa abordou um grupo específico da alimentação brasileira. No Volume 1 (2021), analisaram-se 27 produtos com foco em carboidratos refinados (trigo, milho, soja e açúcar). No Volume 2 (2022), foram 24 produtos com foco em carne e lácteos. No Volume 3 (2024), 24 produtos com foco em inovações de mercado (plant-based) e alimentos de consumo infantil frequente.",
-          "destaque": "Em todas as edições, ao menos metade das amostras avaliadas apresentou resíduos de defensivos agrícolas.",
+          "subtitulo": "Quadro Comparativo das Quatro Edições",
+          "conteudo": "Cada volume da pesquisa abordou um grupo específico da alimentação brasileira. No Volume 1 (2021), analisaram-se 27 produtos com foco em carboidratos refinados (trigo, milho, soja e açúcar). No Volume 2 (2022), foram 24 produtos com foco em carne e lácteos. No Volume 3 (2024), 24 produtos com foco em inovações de mercado (plant-based) e alimentos infantis. No Volume 4 (2026), 12 produtos direcionados à primeira infância (fórmulas infantis, compostos lácteos, cereais e engrossantes).",
+          "destaque": "Em todas as quatro edições, uma parcela substancial dos produtos avaliados apresentou resíduos de defensivos agrícolas ou contaminantes químicos.",
           "dadosChave": [
-            { "label": "Total de produtos analisados", "valor": "75 amostras" },
+            { "label": "Total de produtos analisados", "valor": "87 amostras" },
             { "label": "Vol. 1 (2021) com resíduos", "valor": "59,3% (16 de 27)" },
             { "label": "Vol. 2 (2022) com resíduos", "valor": "58,3% (14 de 24)" },
-            { "label": "Vol. 3 (2024) com resíduos", "valor": "50,0% (12 de 24)" }
+            { "label": "Vol. 3 (2024) com resíduos", "valor": "50,0% (12 de 24)" },
+            { "label": "Vol. 4 (2026) com resíduos", "valor": "41,7% (5 de 12)" }
           ]
         },
         {
           "subtitulo": "Padrões Químicos Recorrentes nas Pesquisas",
-          "conteudo": "Dois padrões principais destacam-se nos dados agregados: primeiro, o herbicida glifosato e seu metabólito AMPA, seguidos pelo glufosinato, figuram como os defensivos mais amplamente encontrados em todos os três relatórios. Segundo, ingredientes obtidos do trigo (massas, pães, biscoitos e crostas de empanados) apresentam contaminação multirresíduos com alta frequência, acompanhados frequentemente pelo sinergista butóxido de piperonila.",
-          "destaque": "Os dados revelam que o modelo de monoculturas em larga escala imprime sua marca química diretamente nas prateleiras dos supermercados."
+          "conteudo": "Dois padrões principais destacam-se nos dados agregados: primeiro, o herbicida glifosato e seu derivado AMPA, seguidos pelo glufosinato, figuram como os defensivos mais amplamente encontrados em todos os quatro relatórios. Segundo, ingredientes obtidos do trigo e do milho (massas, pães, biscoitos, crostas de empanados e cereais infantis) apresentam contaminação multirresíduos com alta frequência, acompanhados frequentemente pelo sinergista butóxido de piperonila. No Volume 4, somam-se a isso resíduos de sanitizantes industriais (BAC) e o inseticida fipronil.",
+          "destaque": "Os dados revelam que o modelo de monoculturas em larga escala imprime sua marca química diretamente nas prateleiras dos supermercados e atinge inclusive a alimentação de bebês."
         },
         {
           "subtitulo": "Consumo Consciente sem Culpa: O Papel das Políticas Públicas",
@@ -228,8 +283,8 @@ export const INFORME_ITEMS: InformeItem[] = [
       ],
       "conclusaoEducativa": "O caminho para o futuro da alimentação passa pelo respeito à biodiversidade, valorização do Guia Alimentar brasileiro e empoderamento da juventude como guardiã da saúde coletiva e do equilíbrio ambiental.",
       "referencias": [
-        "IDEC. Coleção Pesquisa de Defensivos em Ultraprocessados: Volumes 1 (2021), 2 (2022) e 3 (2024).",
-        "Ministério da Saúde. Guia Alimentar para a População Brasileira (2014).",
+        "IDEC. Coleção Pesquisa de Defensivos em Ultraprocessados: Volumes 1 (2021), 2 (2022), 3 (2024) e 4 (2026).",
+        "Ministério da Saúde. Guia Alimentar para a População Brasileira (2014) e Guia para Crianças Menores de 2 Anos (2019).",
         "FAO/ONU. Sustainable Food Systems and Food-based Dietary Guidelines (2024)."
       ]
     }

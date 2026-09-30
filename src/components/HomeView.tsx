@@ -256,7 +256,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
                     <div>
                       <h3 className="text-base font-bold text-foreground">Presença nas amostras testadas</h3>
                       <p className="text-sm text-foreground/85 leading-relaxed mt-1">
-                        Foi o produto mais encontrado nas pesquisas do IDEC sobre defensivos agrícolas (junto à sua substância derivada <strong>AMPA</strong>, que surge quando o pesticida começa a se decompor): esteve presente em <strong>51,8%</strong> das amostras do 1º volume, em <strong>9 de 24</strong> no 2º e em <strong>7 de 24</strong> no 3º volume.
+                        Foi o produto mais encontrado nas pesquisas do IDEC sobre defensivos agrícolas (junto à sua substância derivada <strong>AMPA</strong>, que surge quando o pesticida começa a se decompor): esteve presente em <strong>51,8%</strong> das amostras do 1º volume, em <strong>9 de 24</strong> no 2º, em <strong>7 de 24</strong> no 3º e em produtos infantis do 4º volume.
                       </p>
                     </div>
                   </div>
@@ -285,7 +285,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ navigate }) => {
               <div className="text-[11px] text-muted-foreground flex items-center gap-1.5 pt-1">
                 <FileText className="w-3.5 h-3.5 shrink-0" />
                 <span>
-                  <strong>Fonte:</strong> Pesquisas do IDEC sobre defensivos agrícolas em ultraprocessados (Volumes 1, 2 e 3) e Monografia IARC/OMS.
+                  <strong>Fonte:</strong> Pesquisas do IDEC sobre defensivos agrícolas em ultraprocessados (Volumes 1, 2, 3 e 4) e Monografia IARC/OMS.
                 </span>
               </div>
             </div>
